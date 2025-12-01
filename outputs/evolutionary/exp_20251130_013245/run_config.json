@@ -1,0 +1,14 @@
+{
+  "n_gen": 100,
+  "pop_size": 200,
+  "cx_op": "two_point",
+  "mut_op": "uniform_int",
+  "sel_op": "tournament",
+  "cx_prob": 0.7,
+  "mut_prob": 0.3,
+  "elitism_size": 1,
+  "max_time": null,
+  "cv_splits": 5,
+  "seed": 42,
+  "has_fasttext": true
+}

@@ -1,0 +1,116 @@
+__label__0 o sistema de agendamento online de consultas da prefeitura do recife vive caindo e é muito confuso. é uma luta para conseguir marcar qualquer coisa, principalmente para os mais velhos, como minha mãe.
+__label__4 gostaria de obter a segunda via do meu iptu de 2025, pois o carnê não foi recebido na minha residência em camaragibe.
+__label__2 gostaria de parabenizar a defesa civil de olinda pela competência demonstrada durante as últimas chuvas. o rápido apoio à população foi inestimável, ajudando a evitar maiores problemas
+__label__2 gostaria de elogiar a guarda municipal de petrolina. a presença constante e a eficiência na fiscalização de trânsito contribuíram para um fluxo de veículos muito mais seguro e ordenado
+__label__2 gostaria de parabenizar o programa de vacinação itinerante em petrolina. a facilidade e a conveniência de ter a vacina disponível em vários locais da cidade é uma iniciativa exemplar de saúde pública
+__label__3 qual é a estrutura administrativa atual da prefeitura de belo jardim? solicito o organograma com o detalhamento de secretarias, diretorias e departamentos.
+__label__5 para melhorar a orientação na cidade, sugiro a instalação de placas de identificação em todos os prédios públicos de petrolina. a falta de sinalização dificulta muito para quem chega de outras cidades
+__label__0 gostaria de criticar a falta de acessibilidade nas calçadas do centro de goiana. elas estão em condições precárias, com buracos e obstáculos, e a prefeitura não garante a segurança de cadeirantes e pessoas com dificuldades de locomoção
+__label__1 a iluminação na rua da moeda (olinda) foi abandonada. postes com luzes queimadas há semanas transformaram a área em um local inseguro, com assaltos se tornando mais frequentes.
+__label__0 é muito ruim o atendimento no cras de paulista. a gente espera muito, é uma bagunça, nunca tem ficha e os funcionários não sabem informar direito, parece que estão cansados.
+__label__5 sugiro a instalação de placas de identificação em todos os prédios e espaços públicos de petrolina. a falta de sinalização dificulta a localização para quem não é da cidade
+__label__1 venho registrar uma denúncia de crime ambiental. uma área de preservação de mata atlântica na zona rural de igarassu está sendo desmatada para dar lugar a um loteamento. a operação ocorre com maquinário e sem a devida licença afixada.
+__label__2 parabenizo a prefeitura de petrolina pelo serviço de vacinação itinerante. a iniciativa de levar as vacinas a diferentes locais da cidade é uma excelente forma de facilitar o acesso à saúde pública
+__label__4 gostaria de solicitar a manutenção de um terreno de propriedade municipal na rua das flores, que se encontra em estado de abandono, com acúmulo de detritos e vegetação alta.
+__label__5 proponho que garanhuns invista na instalação de iluminação de led em suas principais vias. além de ser mais econômica, a tecnologia led proporciona maior segurança para quem transita à noite
+__label__1 meu pedido de acesso aos contratos de publicidade da prefeitura de caruaru, feito pela lai, foi negado ilegalmente. a falta de justificativa fere o princípio da transparência.
+__label__3 nos termos da lei de acesso à informação, solicito o plano municipal de gestão integrada de resíduos sólidos de pesqueira, com os detalhes sobre os cronogramas e custos da coleta seletiva.
+__label__4 para aumentar a segurança dos moradores, solicito a instalação de iluminação pública na rua 12 do bairro joão de deus, em petrolina. a escuridão noturna tem contribuído para o aumento de assaltos na área.
+__label__1 quero denunciar um buraco enorme e perigoso na av. agamenon magalhães, perto da rua do paissandu. já aconteceram acidentes ali e, mesmo com vários pedidos, nada foi feito para consertar.
+__label__0 o processo para abrir uma pequena empresa em vitória de santo antão é excessivamente burocrático e lento. a demora na aprovação de documentos e o excesso de exigências frustram os empreendedores locais
+__label__4 a situação no mercado público de vitória está insuportável por causa dos ratos e baratas. precisamos de uma desratização e dedetização imediatamente.
+__label__1 faz mais de um mês que o semáforo da conde da boa vista com a aurora está quebrado, só no pisca-alerta. é um perigo constante de acidentes e ninguém faz nada para consertar. uma confusão total no trânsito.
+__label__3 solicito o plano municipal de gestão integrada de resíduos sólidos de pesqueira. é importante que o documento contenha os cronogramas e os custos da coleta seletiva.
+__label__5 sugiro a construção de mais bibliotecas públicas e comunitárias em paulista. a falta de acesso a livros e materiais de leitura é um problema grave na educação, e a criação de mais espaços de leitura pode ajudar a resolver essa questão
+__label__1 o cras não me ajuda a entender por que meu bolsa família foi cortado. fizeram o bloqueio sem me avisar, e eu sei que tenho direito, pois meu cadúnico está todo atualizado.
+__label__3 para fins de transparência, peço o organograma atualizado da prefeitura de belo jardim, que detalhe a estrutura completa, incluindo secretarias, diretorias e departamentos.
+__label__0 o processo de aprovação de alvarás de construção em arcoverde é ineficiente. a demora para analisar os projetos tem sido um grande obstáculo para quem quer construir, o que afeta o desenvolvimento urbano da cidade
+__label__5 o número de animais abandonados em caruaru está crescendo. sugiro que a prefeitura crie mais abrigos para animais de rua e amplie o programa de castração gratuita para controlar a população
+__label__5 com o aumento de turistas, as praias de petrolina precisam de mais segurança. proponho que a prefeitura instale câmeras para monitorar os locais, o que ajudaria a combater a insegurança
+__label__2 parabenizo a secretaria de educação de jaboatão dos guararapes pelo excelente atendimento. os funcionários me atenderam com muita atenção e eficiência, mostrando o alto nível do serviço público local
+__label__5 acredito que jaboatão dos guararapes deveria investir na criação de uma rede de ciclovias interligadas. isso incentivaria o uso da bicicleta como forma de transporte, o que ajudaria a diminuir o trânsito
+__label__1 a escola municipal monteiro lobato em jaboatão dos guararapes não possui rampas de acesso nem banheiros adaptados para alunos com deficiência física, descumprindo a legislação vigente sobre acessibilidade.
+__label__3 nos termos da lei de acesso à informação, requeiro o acesso à íntegra de todos os contratos e respectivos termos aditivos firmados com as empresas responsáveis pelo fornecimento de merenda escolar à rede municipal de jaboatão dos guararapes durante o exercício de 2024.
+__label__4 quero agendar para buscarem um sofá e um guarda-roupa velhos na minha casa. moro em cruz de rebouças, igarassu.
+__label__5 para combater o desemprego entre os jovens em jaboatão dos guararapes, proponho a implementação de um programa de incentivo fiscal para empresas que os contratam. a iniciativa incentivaria a criação de empregos
+__label__3 para fins de controle social, peço o acesso digital ao edital e a todas as propostas apresentadas na concorrência pública para o serviço de limpeza urbana de goiana em 2025.
+__label__4 é necessária a manutenção no parquinho infantil do alto da sé. há um balanço quebrado e uma rachadura perigosa no escorregador, colocando as crianças em risco.
+__label__4 requeiro, nos termos da lei de acesso à informação, o fornecimento em meio digital da totalidade dos contratos e aditivos da prefeitura de salgueiro para o carnaval de 2025.
+__label__4 peço que a prefeitura realize a poda de uma árvore em garanhuns, na praça souto filho. a fiação elétrica está sendo tocada pelos galhos, o que é muito perigoso.
+__label__0 critico a qualidade e variedade da merenda escolar nas instituições de garanhuns. os pais estão insatisfeitos, pois a alimentação oferecida é nutricionalmente pobre e os pratos são muito repetitivos
+__label__1 por mais de seis meses, tenho sido submetido a um ciclo de exigências burocráticas na prefeitura de petrolina para obter um alvará. o processo não avança porque a cada visita, um novo documento é solicitado.
+__label__3 como posso obter o relatório final da auditoria mais recente da secretaria de saúde de salgueiro? faço esta solicitação via lai.
+__label__2 gostaria de parabenizar a prefeitura de serra talhada pelo trabalho de recuperação das vias. a agilidade em consertar as ruas do meu bairro, que estavam muito danificadas, foi notável e de grande benefício para a população
+__label__2 elogio o serviço ágil e de alta qualidade da equipe de iluminação pública de olinda. o conserto das luzes da minha rua foi feito com rapidez, o que demonstrou a eficiência do trabalho
+__label__1 venho denunciar a irregularidade na coleta de lixo em afogados. a ausência do caminhão por períodos de até uma semana causa acúmulo de resíduos nas vias públicas, o que atrai animais e insetos.
+__label__2 fico muito satisfeito com a rapidez e a qualidade do serviço de recuperação das ruas em serra talhada. o estado das vias no meu bairro melhorou significativamente, facilitando a circulação de veículos e pedestres
+__label__4 meu carnê do iptu 2025 não foi entregue. preciso de uma segunda via para o meu imóvel em camaragibe.
+__label__3 pela lai, peço a lista de todos os carros oficiais da prefeitura de vitória de santo antão. a lista deve informar o modelo, o ano e qual secretaria é responsável por cada um.
+__label__3 solicito acesso à lista de espera atualizada para consultas com neurologista e cardiologista na rede municipal de saúde de olinda, segmentada por posto de saúde.
+__label__0 venho registrar minha insatisfação com o serviço prestado pelo cras de paulista. a desorganização é notória, a espera é excessiva, a distribuição de fichas é insuficiente e a equipe demonstra despreparo e sobrecarga.
+__label__5 sugiro que petrolina invista em um sistema de câmeras de segurança nas praias para compensar a falta de policiamento. isso ajudaria a aumentar a segurança da população e dos turistas
+__label__0 quero registrar uma crítica sobre a infraestrutura das praias em cabo de santo agostinho. o volume de visitantes não é suportado pela falta de banheiros e pela má gestão do acesso e do estacionamento
+__label__0 a infraestrutura turística das praias do cabo de santo agostinho, como calhetas, é insuficiente para o volume de visitantes. faltam banheiros públicos e a organização do acesso e estacionamento é caótica.
+__label__3 nos termos da lai, requeiro o registro de frequência de todos os edis da câmara municipal de serra talhada, referente às sessões ordinárias e extraordinárias ocorridas no ano de 2024.
+__label__3 solicito as listas de frequência de todos os vereadores da câmara municipal de serra talhada nas sessões ordinárias e extraordinárias de 2024.
+__label__3 com base na lai, solicito duas informações sobre o último edital da lei de incentivo à cultura de gravatá: a lista dos projetos selecionados e os critérios de seleção que foram aplicados.
+__label__0 a internet gratuita nas praças de abreu e lima não funciona bem. o sinal é muito fraco e a conexão é instável, impedindo o uso para lazer, estudo ou trabalho
+__label__4 gostaria de saber como obter uma cópia da caderneta de vacinação do meu filho. a original foi perdida e o último atendimento foi no posto central de goiana, no mês passado.
+__label__4 os passageiros que utilizam o ponto de ônibus da br-101, na entrada de caetés i, precisam de um abrigo com cobertura. solicitamos a instalação.
+__label__2 a revitalização das praças em jaboatão dos guararapes é um excelente investimento. os espaços estão limpos e bem cuidados, o que proporciona um ambiente mais seguro e agradável para a comunidade
+__label__2 parabéns pela criação de novos parques e áreas verdes em garanhuns. essa iniciativa está tornando a cidade mais bonita e melhorando as opções de lazer para as famílias. um grande benefício para a qualidade de vida
+__label__1 a rua da moeda, em olinda, está perigosa por falta de iluminação. com vários postes apagados há semanas, os assaltos e a sensação de insegurança aumentaram muito.
+__label__2 o programa de vacinação itinerante de petrolina é um excelente serviço. a acessibilidade em diferentes pontos da cidade é uma ótima estratégia para promover a saúde e o bem-estar da população
+__label__4 preciso de uma vaga para meu filho de 3 anos em uma creche municipal aqui em casa amarela, recife. como devo proceder?
+__label__2 o novo sistema de agendamento online de consultas em serra talhada é ótimo. a plataforma é fácil de usar e tornou o processo de marcar horários muito mais rápido, o que eliminou filas e esperas
+__label__1 a farmácia popular do município de cabo de santo agostinho está com falta crônica de medicamentos para hipertensão e diabetes. sou idosa e dependo desses remédios, que não recebo há dois meses.
+__label__0 gostaria de registrar uma reclamação sobre a merenda nas escolas de garanhuns. a alimentação está repetitiva e com qualidade inferior, o que não atende às necessidades nutricionais dos alunos
+__label__3 peço acesso ao relatório final da última auditoria interna realizada na secretaria de saúde do município de salgueiro.
+__label__0 a qualidade do transporte público em igarassu, especialmente nas áreas rurais, é inaceitável. os veículos são velhos, demoram muito a passar e não seguem os horários, dificultando a vida de quem precisa se locomover
+__label__0 a qualidade da merenda nas escolas de garanhuns diminuiu consideravelmente. as refeições não são variadas e carecem de valor nutricional, o que tem gerado preocupação entre os pais de alunos
+__label__5 sugiro que a prefeitura de olinda promova mutirões de limpeza e conscientização sobre o descarte de lixo em áreas perto de rios e mangues. isso ajudaria a proteger a fauna e a vida marinha local
+__label__3 quero a lista de quem recebe o programa "aluguel social" em arcoverde e qual o valor mensal que cada pessoa ganha.
+__label__4 é urgente uma operação tapa-buraco na rua enock ignácio de oliveira. a rua está intransitável e os carros estão quebrando por causa da buraqueira em serra talhada.
+__label__2 o serviço de atendimento da ouvidoria de caruaru foi muito eficiente. a resposta à minha solicitação foi completa e rápida, demonstrando o compromisso com o cidadão. continuem com o bom trabalho
+__label__4 como posso consultar os horários atualizados do ônibus para a charneca, em gravatá?
+__label__2 venho expressar meu agradecimento à equipe de iluminação pública de olinda. a resposta imediata e a competência com que consertaram as luzes da minha rua foi notável. agora, nos sentimos mais seguros
+__label__5 para combater o acúmulo de lixo, sugiro a instalação de mais lixeiras nas praças e áreas turísticas de olinda. a falta de locais para descarte adequado é um problema que precisa ser resolvido
+__label__4 tem uma árvore muito grande na praça souto filho, em garanhuns, e os galhos estão encostando nos fios de luz. peço que venham podar antes que aconteça um acidente.
+__label__1 a escola municipal monteiro lobato em jaboatão está em total desacordo com a lei de acessibilidade. não há rampas nem banheiros adaptados para os alunos com deficiência, o que impede a inclusão.
+__label__1 recebi um tratamento desrespeitoso no detran de garanhuns. o atendente foi rude, não quis me informar sobre os documentos do meu carro e estava sem identificação.
+__label__1 moradores e turistas estão sendo constantemente assaltados na orla de boa viagem e ruas próximas devido à falta de policiamento na região, um problema que se agrava muito durante a noite.
+__label__1 é um absurdo a farmácia popular do cabo de santo agostinho! faz dois meses que não tem remédio para diabetes e pressão alta. eu sou idosa, não posso ficar sem minha medicação.
+__label__5 a prefeitura de petrolina deveria investir em tecnologia e criar um aplicativo para que os passageiros possam saber o horário exato da chegada dos ônibus. isso traria mais previsibilidade e eficiência ao transporte público
+__label__3 amparado pela lei de acesso à informação, solicito o inteiro teor do procedimento licitatório, bem como do contrato resultante, referente à pavimentação da avenida da integração em petrolina.
+__label__5 acredito que a prefeitura de serra talhada deveria orientar a população sobre o descarte de lixo eletrônico. uma campanha seria eficaz para ensinar as pessoas a descartar pilhas, baterias e outros eletrônicos de forma correta
+__label__5 proponho que a prefeitura de olinda crie um programa de microcrédito para apoiar pequenos empreendedores e artesãos. isso incentivaria a economia e valorizaria o artesanato local
+__label__4 a situação da pavimentação na rua enock ignácio de oliveira (serra talhada) é crítica. a via está tomada por buracos, tornando o tráfego perigoso e danoso para os veículos. solicito providências.
+__label__0 o portal da transparência da prefeitura de petrolina é difícil de navegar e as informações não são atualizadas com a frequência necessária. é quase impossível acompanhar os gastos públicos de forma clara.
+__label__3 para fins de transparência, e com base na lai, peço cópia do contrato (de concessão ou gestão) que a prefeitura de são lourenço da mata tem com a empresa/entidade que hoje administra o estádio municipal.
+__label__0 a falta de manutenção nas praças públicas de salgueiro é evidente. brinquedos quebrados, mato alto e iluminação deficiente tornam esses espaços de lazer desagradáveis e inseguros para as famílias.
+__label__3 peço, por favor, que me forneçam o estudo de impacto ambiental e o relatório de impacto ambiental (eia/rima) da construção no janga, em paulista.
+__label__4 solicito a realização de um serviço de desratização e dedetização no mercado público de vitória de santo antão, devido à grande infestação de ratos e baratas.
+__label__5 a prefeitura de arcoverde deveria lançar um programa de revitalização de fachadas antigas no centro da cidade. isso valorizaria o patrimônio histórico e cultural e atrairia mais turistas e visitantes
+__label__5 a prefeitura de olinda deveria criar um programa de microcrédito para pequenos empreendedores e artesãos. isso incentivaria a economia local e valorizaria o artesanato da cidade
+__label__2 parabéns pela nova política de arborização e criação de parques em garanhuns. a cidade está mais convidativa e com mais opções para as famílias, um ponto crucial para o bem-estar e qualidade de vida da população
+__label__4 há um grande desperdício de água potável na rua dantas barreto, no centro de pesqueira, por causa de um cano quebrado na calçada. peço o conserto com urgência.
+__label__3 requeiro cópia do estudo de impacto ambiental (eia) e do respectivo relatório de impacto ambiental (rima) para o empreendimento imobiliário em construção no janga.
+__label__5 é crucial que jaboatão dos guararapes crie mais ciclovias conectadas. a expansão da rede cicloviária incentivaria o uso de bicicletas como meio de transporte e lazer, diminuindo o trânsito
+__label__0 o site da prefeitura de serra talhada é pouco intuitivo e não funciona bem em dispositivos móveis. serviços simples, como a emissão de uma guia de imposto, tornam-se uma tarefa complicada.
+__label__1 denuncio o desmatamento ilegal de uma área de mata atlântica preservada na zona rural de igarassu para a construção de um loteamento. máquinas estão operando no local sem qualquer placa de licença ambiental.
+__label__5 a prefeitura de petrolina deveria criar um aplicativo que mostre o tempo real de chegada dos ônibus. isso melhoraria a experiência dos usuários e a eficiência do transporte público
+__label__0 o terminal de ônibus de belo jardim precisa de melhorias. as plataformas são estreitas e o local não possui um número adequado de assentos. além disso, a cobertura não é eficiente para proteger da chuva e do sol
+__label__3 em nome da transparência pública e com base na lai, solicito acesso à lista de todos os servidores comissionados da prefeitura de caruaru. peço que os dados venham em uma planilha contendo nome completo, cargo, secretaria e salário bruto mensal.
+__label__1 denuncio um funcionário do detran de garanhuns que me tratou com grosseria ao tentar resolver um problema do meu veículo. o mais grave é que ele não usava crachá e se recusou a dar qualquer informação, agindo de forma totalmente antiprofissional.
+__label__4 pela lei de acesso à informação, quero acesso à íntegra do processo administrativo que originou o decreto municipal nº 5.123/2025 de são lourenço da mata.
+__label__1 estou escrevendo para denunciar, de forma anônima, que empresas estão despejando lixo industrial nas margens do capibaribe, na área de apipucos. isso acontece de madrugada e a água está visivelmente contaminada.
+__label__2 a prefeitura de serra talhada merece um grande elogio pelo trabalho de recuperação das estradas vicinais. as vias estão em ótimo estado, o que tem facilitado a vida de produtores rurais e moradores
+__label__1 quero denunciar que a escola municipal monteiro lobato, em jaboatão, ignora as leis de acessibilidade. faltam rampas e banheiros apropriados para estudantes com deficiência física.
+__label__0 não estou satisfeito com a falta de transparência e a usabilidade do portal da prefeitura de petrolina. a navegação é confusa, e a demora na atualização dos dados dificulta o acompanhamento dos gastos
+__label__5 minha sugestão é que a prefeitura de garanhuns invista em mais áreas de lazer com brinquedos adaptados. a inclusão das crianças com deficiência em espaços públicos deve ser uma prioridade
+__label__2 venho elogiar o excelente trabalho da equipe de limpeza urbana de paulista. a eficiência e a regularidade do serviço de coleta de lixo e varrição das ruas têm mantido a cidade limpa
+__label__3 solicito o detalhamento, em formato de planilha, de todos os gastos com publicidade e propaganda da prefeitura de garanhuns no primeiro semestre de 2025, incluindo veículos de comunicação e valores.
+__label__2 o programa de visita domiciliar da equipe de saúde da família em caruaru é um serviço inestimável. agradeço o cuidado e a dedicação dos profissionais, que têm sido fundamentais para o bem-estar da minha família
+__label__0 os ônibus que atendem a zona rural de igarassu estão em péssimo estado, são muito antigos e têm um tempo de espera muito longo. os horários não são respeitados, o que prejudica trabalhadores e estudantes
+__label__4 solicito o cardápio da merenda escolar do próximo mês para as escolas municipais de belo jardim.
+__label__2 gostaria de elogiar o profissionalismo e a agilidade da equipe da secretaria de educação de jaboatão dos guararapes. eles me ajudaram a resolver minha questão com total competência

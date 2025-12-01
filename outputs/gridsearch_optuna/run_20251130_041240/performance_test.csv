@@ -1,0 +1,5 @@
+model;algorithm;best_f1_train;f1_holdout;accuracy_holdout;best_params;runtime_seconds
+LogisticRegression;GridSearchCV;0.9755596416572025;0.9861080957205578;0.9861111111111112;{'clf__C': 10, 'tfidf__ngram_range': (1, 2)};5.31
+MultinomialNB;GridSearchCV;0.966950039554812;0.9647812032614466;0.9652777777777778;{'clf__alpha': 0.1, 'tfidf__ngram_range': (1, 1)};0.25
+LinearSVC;GridSearchCV;0.986058154530555;0.9930525401650021;0.9930555555555556;{'clf__C': 10, 'tfidf__ngram_range': (1, 1)};0.25
+FastText;Optuna;0.04761746821448314;0.047619047619047616;0.16666666666666666;{'lr': 0.28971805320947014, 'dim': 100, 'epoch': 27, 'wordNgrams': 2};

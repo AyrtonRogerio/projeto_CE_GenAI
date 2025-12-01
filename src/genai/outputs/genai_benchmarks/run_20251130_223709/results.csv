@@ -1,0 +1,173 @@
+"demanda_id"|"classificacao_real"|"prompt_id"|"modelo_id"|"classificacao_limpa"|"acertou"|"demanda_texto"|"classificacao_raw"|"tempo_resposta_s"|"erro"|"try_count"
+"0422"|"Solicitação"|"zero_shot_direto"|"gemini-2.5-flash-lite"|"Denúncia"|"0"|"O mercado público de Vitória de Santo Antão está infestado de ratos e baratas. Peço que façam uma desratização e dedetização urgente."|"Denúncia"|"5.89551043510437"|""|"1"
+"0422"|"Solicitação"|"zero_shot_direto"|"gpt-5-nano"|"Solicitação"|"1"|"O mercado público de Vitória de Santo Antão está infestado de ratos e baratas. Peço que façam uma desratização e dedetização urgente."|"Solicitação"|"7.224961519241333"|""|"1"
+"0422"|"Solicitação"|"zero_shot_direto"|"llama-3.1-8b-instant"|"Crítica"|"0"|"O mercado público de Vitória de Santo Antão está infestado de ratos e baratas. Peço que façam uma desratização e dedetização urgente."|"Crítica"|"0.4342162609100342"|""|"1"
+"0422"|"Solicitação"|"zero_shot_cot"|"gemini-2.5-flash-lite"|"Denúncia"|"0"|"O mercado público de Vitória de Santo Antão está infestado de ratos e baratas. Peço que façam uma desratização e dedetização urgente."|"Vamos analisar a demanda: ""O mercado público de Vitória de Santo Antão está infestado de ratos e baratas. Peço que façam uma desratização e dedetização urgente.""
+
+**Raciocínio:**
+
+1.  **Identificação do problema:** A demanda descreve uma situação negativa e prejudicial à saúde pública (infestação de ratos e baratas em um local público).
+2.  **Natureza da insatisfação:** A pessoa que enviou a demanda não está elogiando algo, nem apenas dando uma ideia. Há uma insatisfação clara com uma situação existente que precisa ser corrigida.
+3.  **Pedido de ação:** A demanda não é apenas uma constatação de um problema, mas inclui um pedido explícito para que uma ação seja tomada (""Peço que façam uma desratização e dedetização urgente"").
+4.  **Distinção entre categorias:**
+    *   'Elogio': Não se aplica, pois não há nada positivo sendo destacado.
+    *   'Crítica': Embora haja uma crítica implícita à falta de saneamento, a demanda vai além, pedindo uma solução.
+    *   'Sugestão': Não é uma mera ideia, mas um pedido para resolver um problema urgente.
+    *   'Pedido de LAI': Não há solicitação de informações públicas.
+    *   'Solicitação': Poderia se encaixar, pois é um pedido. No entanto, a palavra ""Denúncia"" capta melhor a gravidade da situação relatada (infestação que representa risco à saúde).
+    *   'Denúncia': Esta categoria é a mais apropriada porque a demanda relata uma condição que afeta a saúde e a segurança pública, exigindo uma intervenção rápida e corretiva por parte do órgão responsável. A infestação é um problema que deve ser comunicado oficialmente para que as autoridades tomem providências.
+
+**Categoria:** Denúncia"|"2.8521244525909424"|""|"1"
+"0422"|"Solicitação"|"zero_shot_cot"|"gpt-5-nano"|"Solicitação"|"1"|"O mercado público de Vitória de Santo Antão está infestado de ratos e baratas. Peço que façam uma desratização e dedetização urgente."|"Raciocínio:
+- A demanda descreve uma condição de risco (infestação de ratos e baratas) em um espaço público (mercado público) e solicita a realização de desratização e dedetização de forma urgente.
+- Não é elogio, nem crítica direta, nem sugestão de melhoria, nem pedido de acesso à informação (LAI).
+- O tom é de apelo por um serviço/procedimento a ser realizado pela administração pública.
+
+Categoria final: Solicitação"|"13.645174026489258"|""|"1"
+"0422"|"Solicitação"|"zero_shot_cot"|"llama-3.1-8b-instant"|"Solicitação"|"1"|"O mercado público de Vitória de Santo Antão está infestado de ratos e baratas. Peço que façam uma desratização e dedetização urgente."|"Para classificar a demanda, farei o seguinte raciocínio:
+
+- A demanda menciona um problema específico (ratos e baratas no mercado público de Vitória de Santo Antão);
+- O problema mencionado é uma questão de limpeza e higiene;
+- A demanda solicita uma ação específica (desratização e dedetização) para resolver a questão.
+
+Com base nesses pontos, a demanda não é um elogio ( pois não está mencionando um serviço bem feito), nem uma crítica (pois não está questionando a qualidade do serviço); tampouco é uma sugestão (pois não está apresentando uma ideia para melhorar o serviço), nem um pedido de LAI (pois não está solicitando acesso a informação ou documento específico); nem uma solicitação genérica (pois está solicitando uma ação específica para resolver um problema).
+
+Portanto, classifico a demanda como uma solicitação, pois está solicitando uma ação específica (desratização e dedetização) para resolver um problema identificado."|"0.841533899307251"|""|"1"
+"0517"|"Denúncia"|"zero_shot_direto"|"gemini-2.5-flash-lite"|"Crítica"|"0"|"Estou tentando obter um alvará de funcionamento para meu pequeno comércio em Petrolina há mais de seis meses. A cada visita à prefeitura, um novo documento é solicitado, caracterizando uma burocracia excessiva e sem justificativa."|"Crítica"|"0.633751630783081"|""|"1"
+"0517"|"Denúncia"|"zero_shot_direto"|"gpt-5-nano"|"Crítica"|"0"|"Estou tentando obter um alvará de funcionamento para meu pequeno comércio em Petrolina há mais de seis meses. A cada visita à prefeitura, um novo documento é solicitado, caracterizando uma burocracia excessiva e sem justificativa."|"Crítica"|"3.072629451751709"|""|"1"
+"0517"|"Denúncia"|"zero_shot_direto"|"llama-3.1-8b-instant"|"Crítica"|"0"|"Estou tentando obter um alvará de funcionamento para meu pequeno comércio em Petrolina há mais de seis meses. A cada visita à prefeitura, um novo documento é solicitado, caracterizando uma burocracia excessiva e sem justificativa."|"Crítica"|"0.35631680488586426"|""|"1"
+"0517"|"Denúncia"|"zero_shot_cot"|"gemini-2.5-flash-lite"|"Crítica"|"0"|"Estou tentando obter um alvará de funcionamento para meu pequeno comércio em Petrolina há mais de seis meses. A cada visita à prefeitura, um novo documento é solicitado, caracterizando uma burocracia excessiva e sem justificativa."|"## Raciocínio para Classificação da Demanda:
+
+A demanda apresentada descreve uma experiência negativa e frustrante do cidadão ao tentar obter um documento oficial (alvará de funcionamento). Vamos analisar os elementos para chegar à categoria correta:
+
+*   **""Estou tentando obter um alvará de funcionamento para meu pequeno comércio em Petrolina há mais de seis meses.""**: Esta parte inicial demonstra uma dificuldade persistente e um tempo de espera excessivo para um processo que deveria ser mais ágil.
+
+*   **""A cada visita à prefeitura, um novo documento é solicitado...""**: Este é um ponto crucial. Indica que o processo não é transparente e parece estar se alongando de forma desnecessária, pois as exigências mudam ou são adicionadas continuamente.
+
+*   **""...caracterizando uma burocracia excessiva e sem justificativa.""**: Esta frase é explícita em sua insatisfação e na identificação do problema central: a burocracia percebida como exagerada e arbitrária. O cidadão está expressando descontentamento com o funcionamento de um serviço público.
+
+Ao analisar esses pontos, podemos descartar algumas categorias:
+
+*   **Elogio:** Claramente não é, pois a demanda expressa insatisfação.
+*   **Sugestão:** Embora a demanda aponte um problema, o foco principal não é propor uma solução ou melhoria específica, mas sim relatar a dificuldade.
+*   **Pedido de LAI:** Não há menção a acesso à informação pública.
+*   **Solicitação:** Não é uma solicitação de algo novo ou um pedido de informação pontual. É um relato de um processo que está falhando.
+
+Restam 'Crítica' e 'Denúncia'. A diferença entre elas reside na intensidade e na natureza da irregularidade.
+
+*   **Crítica:** Geralmente aponta para falhas em processos, serviços, políticas ou comportamentos, gerando insatisfação. É um apontamento de algo que não está funcionando bem.
+*   **Denúncia:** Sugere a ocorrência de irregularidades, ilegalidades, desvios de conduta ou atos de improbidade. Implica em algo que vai além de uma falha processual e pode envolver má conduta.
+
+No caso em questão, o cidadão descreve uma **""burocracia excessiva e sem justificativa""**. Embora a burocracia excessiva seja um problema que gera insatisfação, a descrição não aponta diretamente para uma ilegalidade clara ou um ato de improbidade que caracterizaria uma denúncia formal. O foco está na **ineficiência e na dificuldade imposta pelo processo**. O sentimento expresso é de frustração com o sistema. Portanto, a categoria mais adequada para descrever essa insatisfação com o funcionamento de um serviço público é a de crítica.
+
+## Categoria Final:
+
+**Crítica**"|"3.7062902450561523"|""|"1"
+"0517"|"Denúncia"|"zero_shot_cot"|"gpt-5-nano"|"Crítica"|"0"|"Estou tentando obter um alvará de funcionamento para meu pequeno comércio em Petrolina há mais de seis meses. A cada visita à prefeitura, um novo documento é solicitado, caracterizando uma burocracia excessiva e sem justificativa."|"Raciocínio (resumo): a demanda expressa insatisfação com o serviço público (burocracia excessiva e pedidos de documentos sem justificativa) ao tentar obter um alvará. Não é elogio, nem sugestão, nem pedido de LAI, nem solicitação formal de um atendimento específico, nem denúncia de crime/ilegalidade. Portanto caracteriza-se como crítica ao serviço público.
+
+Categoria: Crítica"|"8.629088163375854"|""|"1"
+"0517"|"Denúncia"|"zero_shot_cot"|"llama-3.1-8b-instant"|"Crítica"|"0"|"Estou tentando obter um alvará de funcionamento para meu pequeno comércio em Petrolina há mais de seis meses. A cada visita à prefeitura, um novo documento é solicitado, caracterizando uma burocracia excessiva e sem justificativa."|"Aqui está meu raciocínio:
+
+A demanda apresentada é de um cidadão que está tentando obter um alvará de funcionamento para seu comércio, mas enfrentou dificuldades ao longo do processo. Ele menciona a burocracia excessiva e a falta de justificativa para a solicitação de novos documentos.
+
+Essa demanda pode ser considerada uma crítica à atuação da prefeitura, pois o cidadão está reclamando da falta de eficiência e facilitação no processo de obtenção do alvará de funcionamento.
+
+Além disso, a demanda não é uma simples solicitação de informações ou de um serviço, mas sim uma reclamação sobre um processo que não está funcionando corretamente.
+
+Considerando esses pontos, a categoria final seria:
+
+**Crítica**
+
+Essa categoria é apropriada para demandas que criticam ou reclamam sobre a atuação de uma entidade pública, nesse caso, a prefeitura. A crítica pode ser sobre a falta de eficiência, corrupção, inefetividade ou qualquer outra coisa que comprometa a prestação de um serviço público."|"0.842613935470581"|""|"1"
+"0627"|"Crítica"|"zero_shot_direto"|"gemini-2.5-flash-lite"|"Crítica"|"1"|"A falta de manutenção nas praças públicas de Salgueiro é evidente. Brinquedos quebrados, mato alto e iluminação deficiente tornam esses espaços de lazer desagradáveis e inseguros para as famílias."|"Crítica"|"0.632145881652832"|""|"1"
+"0627"|"Crítica"|"zero_shot_direto"|"gpt-5-nano"|"Crítica"|"1"|"A falta de manutenção nas praças públicas de Salgueiro é evidente. Brinquedos quebrados, mato alto e iluminação deficiente tornam esses espaços de lazer desagradáveis e inseguros para as famílias."|"Crítica"|"1.9708895683288574"|""|"1"
+"0627"|"Crítica"|"zero_shot_direto"|"llama-3.1-8b-instant"|"Crítica"|"1"|"A falta de manutenção nas praças públicas de Salgueiro é evidente. Brinquedos quebrados, mato alto e iluminação deficiente tornam esses espaços de lazer desagradáveis e inseguros para as famílias."|"Crítica"|"0.33032965660095215"|""|"1"
+"0627"|"Crítica"|"zero_shot_cot"|"gemini-2.5-flash-lite"|"Crítica"|"1"|"A falta de manutenção nas praças públicas de Salgueiro é evidente. Brinquedos quebrados, mato alto e iluminação deficiente tornam esses espaços de lazer desagradáveis e inseguros para as famílias."|"**Raciocínio:**
+
+A demanda descreve um problema percebido com as praças públicas de Salgueiro, mencionando explicitamente aspectos negativos como ""brinquedos quebrados"", ""mato alto"" e ""iluminação deficiente"". O tom é de desaprovação e aponta para uma falha na gestão ou execução de um serviço público. Não há pedido de informação, solicitação de providência direta ou manifestação de agradecimento. A natureza da reclamação sobre a condição precária de espaços públicos se encaixa perfeitamente na definição de uma crítica.
+
+**Categoria Final:** Crítica"|"1.0944948196411133"|""|"1"
+"0627"|"Crítica"|"zero_shot_cot"|"gpt-5-nano"|"Crítica"|"1"|"A falta de manutenção nas praças públicas de Salgueiro é evidente. Brinquedos quebrados, mato alto e iluminação deficiente tornam esses espaços de lazer desagradáveis e inseguros para as famílias."|"Raciocínio:
+- A mensagem expressa insatisfação com a qualidade do serviço público (manutenção das praças).
+- Enumera problemas específicos: brinquedos quebrados, mato alto, iluminação deficiente.
+- Conclui que esses fatores tornam os espaços desagradáveis e inseguros para as famílias.
+- Não solicita informação (LAI), nem faz uma sugestão de melhoria explícita ou requer ação específica; não é elogio.
+
+Categoria final: Crítica"|"10.625587463378906"|""|"1"
+"0627"|"Crítica"|"zero_shot_cot"|"llama-3.1-8b-instant"|"Crítica"|"1"|"A falta de manutenção nas praças públicas de Salgueiro é evidente. Brinquedos quebrados, mato alto e iluminação deficiente tornam esses espaços de lazer desagradáveis e inseguros para as famílias."|"Minha análise da demanda é a seguinte:
+
+- A demanda expressa um problema específico relacionado à falta de manutenção nas praças públicas de Salgueiro.
+- O problema mencionado inclui vários aspectos, como brinquedos quebrados, mato alto e iluminação deficiente.
+- A expressão do problema é construtiva, destacando a necessidade de melhoria, e não apenas uma queixa ou crítica generalizada.
+- Não há indicação de uma solicitação específica de ação por parte do atendente, mas sim uma observação de problemas e uma reflexão sobre a necessidade de melhoria.
+
+Com base nessa análise, a categoria mais apropriada para a demanda ""A falta de manutenção nas praças públicas de Salgueiro é evidente. Brinquedos quebrados, mato alto e iluminação deficiente tornam esses espaços de lazer desagradáveis e inseguros para as famílias."" é:
+
+**Crítica**
+
+Essa categoria é apropriada porque a demanda apresenta uma queixa construtiva sobre um problema específico, sem apresentar uma solicitação de ação ou uma sugestão de solução. A crítica é expressa de forma clara e concisa, destacando a necessidade de melhoria nos espaços públicos da cidade."|"1.0462932586669922"|""|"1"
+"0641"|"Crítica"|"zero_shot_direto"|"gemini-2.5-flash-lite"|"Denúncia"|"0"|"O barulho excessivo vindo de bares e restaurantes nos fins de semana em Gravatá é um problema. A falta de fiscalização de posturas permite que a lei do silêncio seja violada, perturbando a tranquilidade da população"|"Denúncia"|"0.6338467597961426"|""|"1"
+"0641"|"Crítica"|"zero_shot_direto"|"gpt-5-nano"|"Crítica"|"1"|"O barulho excessivo vindo de bares e restaurantes nos fins de semana em Gravatá é um problema. A falta de fiscalização de posturas permite que a lei do silêncio seja violada, perturbando a tranquilidade da população"|"Crítica"|"5.350526332855225"|""|"1"
+"0641"|"Crítica"|"zero_shot_direto"|"llama-3.1-8b-instant"|"Crítica"|"1"|"O barulho excessivo vindo de bares e restaurantes nos fins de semana em Gravatá é um problema. A falta de fiscalização de posturas permite que a lei do silêncio seja violada, perturbando a tranquilidade da população"|"Crítica"|"0.291015625"|""|"1"
+"0641"|"Crítica"|"zero_shot_cot"|"gemini-2.5-flash-lite"|"Denúncia"|"0"|"O barulho excessivo vindo de bares e restaurantes nos fins de semana em Gravatá é um problema. A falta de fiscalização de posturas permite que a lei do silêncio seja violada, perturbando a tranquilidade da população"|"**Raciocínio:**
+
+A demanda apresentada descreve uma situação que causa insatisfação e incômodo à população: o barulho excessivo de bares e restaurantes em fins de semana. O texto aponta para a ausência de fiscalização como causa do problema, o que sugere que a situação atual é inadequada e prejudicial.
+
+Vamos analisar cada categoria possível para justificar a escolha:
+
+*   **Elogio:** Claramente não é um elogio, pois descreve um problema e insatisfação.
+*   **Crítica:** Há uma forte componente de crítica, pois aponta falhas na fiscalização de posturas e a violação de uma lei (lei do silêncio). A crítica é voltada para a atuação ou omissão do órgão público responsável pela fiscalização.
+*   **Sugestão:** Embora a crítica implícita leve a uma necessidade de melhoria, a demanda não apresenta uma proposta concreta de solução ou melhoria. Ela foca no problema e na causa percebida.
+*   **Pedido de LAI:** Não há solicitação de acesso a informações públicas, como previsto na Lei de Acesso à Informação.
+*   **Solicitação:** Não é uma solicitação direta de um serviço ou informação específica para o reclamante. O foco é a resolução de um problema coletivo.
+*   **Denúncia:** Este é o ponto mais forte. A demanda relata um descumprimento de lei (lei do silêncio) e uma falha na atuação de um serviço público (fiscalização de posturas) que, em conjunto, causam transtornos à coletividade. Relatar um ato ou omissão que contraria a lei e prejudica o interesse público se enquadra na definição de denúncia.
+
+A demanda é uma clara exposição de um problema causado por uma conduta inadequada (barulho excessivo) que, segundo o reclamante, é possibilitada pela falta de ação do poder público (falta de fiscalização). Isso configura uma denúncia de que a lei não está sendo cumprida e de que o serviço público de fiscalização não está sendo efetivo.
+
+**Categoria Final:** Denúncia"|"3.333756923675537"|""|"1"
+"0641"|"Crítica"|"zero_shot_cot"|"gpt-5-nano"|"Crítica"|"1"|"O barulho excessivo vindo de bares e restaurantes nos fins de semana em Gravatá é um problema. A falta de fiscalização de posturas permite que a lei do silêncio seja violada, perturbando a tranquilidade da população"|"Raciocínio:
+- A demanda expressa insatisfação com um problema público (barulho de bares/restaurantes) e com a atuação de fiscalização.
+- Não é elogio nem sugestão de melhoria específica, e não há pedido formal de informação (LAI) ou de serviço explícito.
+- Embora mencione a falta de fiscalização, o conteúdo se apresenta como uma crítica à situação existente, não como uma denúncia formal de crime ou infração com evidências.
+
+Categoria: Crítica"|"8.320427894592285"|""|"1"
+"0641"|"Crítica"|"zero_shot_cot"|"llama-3.1-8b-instant"|"Crítica"|"1"|"O barulho excessivo vindo de bares e restaurantes nos fins de semana em Gravatá é um problema. A falta de fiscalização de posturas permite que a lei do silêncio seja violada, perturbando a tranquilidade da população"|"Meu raciocínio é o seguinte:
+
+- A demanda expressa um problemas específico, que é o barulho excessivo nos fins de semana em Gravatá.
+- O problema mencionado é consequência de uma falta de fiscalização em relação à postura e à lei do silêncio.
+- A demanda não é uma elogio (porque não expressa uma opinião positiva), nem uma solicitação (porque não busca algo específico do serviço prestado pelo município). Também não é um pedido de Lei de Acesso à Informação (LAI), porque não busca acesso a informações específicas.
+- Além disso, a demanda não é uma denúncia (porque não é um relato de um fato específico de corrupção, fraude ou outro tipo de infração administrativa).
+- O problema expresso se enquadra como uma crítica, pois a demanda está expressando uma oposição e reclamando uma situação de injustiça ou falha em relação à política de fiscalização de posturas do município.
+
+Diante da análise, a categoria final da demanda é: 
+**Crítica**"|"0.8428261280059814"|""|"1"
+"0706"|"Denúncia"|"zero_shot_direto"|"gemini-2.5-flash-lite"|"Denúncia"|"1"|"Denuncio uma obra ilegal em Porto de Galinhas. Estão construindo um prédio em cima da areia da praia, desrespeitando a lei de zoneamento. O mais grave é que a prefeitura deu o alvará, o que indica que é conivente com o crime."|"Denúncia"|"0.5712094306945801"|""|"1"
+"0706"|"Denúncia"|"zero_shot_direto"|"gpt-5-nano"|"Denúncia"|"1"|"Denuncio uma obra ilegal em Porto de Galinhas. Estão construindo um prédio em cima da areia da praia, desrespeitando a lei de zoneamento. O mais grave é que a prefeitura deu o alvará, o que indica que é conivente com o crime."|"Denúncia"|"1.726607322692871"|""|"1"
+"0706"|"Denúncia"|"zero_shot_direto"|"llama-3.1-8b-instant"|"Denúncia"|"1"|"Denuncio uma obra ilegal em Porto de Galinhas. Estão construindo um prédio em cima da areia da praia, desrespeitando a lei de zoneamento. O mais grave é que a prefeitura deu o alvará, o que indica que é conivente com o crime."|"Denúncia"|"0.43299198150634766"|""|"1"
+"0706"|"Denúncia"|"zero_shot_cot"|"gemini-2.5-flash-lite"|"Denúncia"|"1"|"Denuncio uma obra ilegal em Porto de Galinhas. Estão construindo um prédio em cima da areia da praia, desrespeitando a lei de zoneamento. O mais grave é que a prefeitura deu o alvará, o que indica que é conivente com o crime."|"**Raciocínio:**
+
+A demanda claramente expressa uma insatisfação com uma ação que o usuário considera ilegal e prejudicial. O uso da palavra ""denuncio"" é explícito e indica que o objetivo principal é reportar um ato irregular. Além disso, a descrição detalha a natureza da irregularidade (obra ilegal, construção em cima da areia, desrespeito à lei de zoneamento) e aponta para uma possível negligência ou cumplicidade de um órgão público (prefeitura). Estes elementos são característicos de uma denúncia.
+
+*   **Elogio:** Não se aplica, pois a demanda é negativa.
+*   **Crítica:** Embora haja crítica implícita à prefeitura, o foco principal é reportar a irregularidade em si.
+*   **Sugestão:** Não há propostas de melhoria ou novas ideias.
+*   **Pedido de LAI:** Não há menção à Lei de Acesso à Informação ou solicitação de documentos/informações.
+*   **Solicitação:** Não há pedido específico de ação para o ouvinte, além da investigação da denúncia.
+*   **Denúncia:** A demanda reporta um ato irregular, ilegal e com indícios de conivência de um órgão público.
+
+**Categoria:** Denúncia"|"2.170322895050049"|""|"1"
+"0706"|"Denúncia"|"zero_shot_cot"|"gpt-5-nano"|"Denúncia"|"1"|"Denuncio uma obra ilegal em Porto de Galinhas. Estão construindo um prédio em cima da areia da praia, desrespeitando a lei de zoneamento. O mais grave é que a prefeitura deu o alvará, o que indica que é conivente com o crime."|"Raciocínio:
+- O texto começa com ""Denuncio"" e descreve uma construção ilegal em área de praia, violando a lei de zoneamento.
+- Também aponta suposta conivência da prefeitura ao emitir o alvará, aumentando a gravidade da denúncia.
+- Não se trata de elogio, sugestão, pedido de acesso à informação (LAI) ou mera solicitação; trata-se de reportar uma atividade ilegal e possível corrupção/violação administrativa.
+
+Categoria final: Denúncia"|"6.375386953353882"|""|"1"
+"0706"|"Denúncia"|"zero_shot_cot"|"llama-3.1-8b-instant"|"Denúncia"|"1"|"Denuncio uma obra ilegal em Porto de Galinhas. Estão construindo um prédio em cima da areia da praia, desrespeitando a lei de zoneamento. O mais grave é que a prefeitura deu o alvará, o que indica que é conivente com o crime."|"Minha abordagem para classificar a demanda de ouvidoria foi a seguinte:
+
+1. **Identificação do tipo de problema**: A demanda apresenta uma situação problemática, onde uma obra está sendo construída de forma ilegal, desrespeitando a lei de zoneamento.
+2. **Análise da linguagem utilizada**: A linguagem utilizada é forte e acusatória, com uso de termos como ""denuncio"", ""crime"" e ""conivente com o crime"".
+3. **Identificação do objetivo da demanda**: A demanda visa alertar e denunciar a situação ilegal, bem como responsabilizar a prefeitura por seu papel nessa situação.
+
+Com essas considerações em mente, eu classificaria a demanda como **Denúncia**, pois apresenta uma situação ilegal, é direcionada a uma autoridade (prefeitura) e visa responsabilizá-las por sua conduta.
+
+Categoria final: **Denúncia**"|"0.7387945652008057"|""|"1"

@@ -1,0 +1,51 @@
+{
+  "Crítica": {
+    "precision": 0.16666666666666666,
+    "recall": 1.0,
+    "f1-score": 0.2857142857142857,
+    "support": 24.0
+  },
+  "Denúncia": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 24.0
+  },
+  "Elogio": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 24.0
+  },
+  "Pedido de Acesso à Informação (LAI)": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 24.0
+  },
+  "Solicitação": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 24.0
+  },
+  "Sugestão": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 24.0
+  },
+  "accuracy": 0.16666666666666666,
+  "macro avg": {
+    "precision": 0.027777777777777776,
+    "recall": 0.16666666666666666,
+    "f1-score": 0.047619047619047616,
+    "support": 144.0
+  },
+  "weighted avg": {
+    "precision": 0.027777777777777776,
+    "recall": 0.16666666666666666,
+    "f1-score": 0.047619047619047616,
+    "support": 144.0
+  }
+}

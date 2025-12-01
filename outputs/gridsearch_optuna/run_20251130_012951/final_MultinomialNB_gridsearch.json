@@ -1,0 +1,15 @@
+{
+  "model": "MultinomialNB",
+  "algorithm": "GridSearchCV",
+  "best_f1_train": 0.9312188929884446,
+  "f1_holdout": 0.9861050803300043,
+  "accuracy_holdout": 0.9861111111111112,
+  "best_params": {
+    "clf__alpha": 0.1,
+    "tfidf__ngram_range": [
+      1,
+      2
+    ]
+  },
+  "runtime_seconds": 0.19
+}

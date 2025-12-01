@@ -1,0 +1,13 @@
+{
+  "Holdout_F1": 0.9791666666666666,
+  "Holdout_precision": 0.9791666666666666,
+  "Holdout_recall": 0.9791666666666666,
+  "Holdout_accuracy": null,
+  "Modelo": "FastText",
+  "Parametros": {
+    "lr": 1.0,
+    "epoch": 50,
+    "wordNgrams": 2,
+    "dim": 100
+  }
+}

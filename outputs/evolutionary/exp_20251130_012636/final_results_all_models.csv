@@ -1,0 +1,5 @@
+Holdout_F1;Holdout_precision;Holdout_recall;Holdout_accuracy;Modelo;Parametros
+1.0;1.0;1.0;1.0;SVM;{'C': 100.0, 'kernel': 'linear', 'ngram_range': (1, 2)}
+0.9930525401650022;0.9933333333333333;0.9930555555555555;0.9930555555555556;NaiveBayes;{'alpha': 0.01, 'ngram_range': (1, 2)}
+1.0;1.0;1.0;1.0;LogisticRegression;{'C': 100.0, 'solver': 'liblinear', 'ngram_range': (1, 1)}
+0.9722222222222222;0.9722222222222222;0.9722222222222222;;FastText;{'lr': 1.0, 'epoch': 50, 'wordNgrams': 2, 'dim': 100}

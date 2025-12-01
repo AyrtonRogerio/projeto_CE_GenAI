@@ -1,0 +1,9 @@
+model;approach;best_f1_holdout;runtime_seconds
+LinearSVC;GridSearchCV;1.0;0.18
+FastText;Optuna;0.047619047619047616;0.0
+LogisticRegression;GridSearchCV;1.0;5.24
+MultinomialNB;GridSearchCV;0.9861050803300043;0.19
+SVM;Evolutionary;1.0;0.0
+NaiveBayes;Evolutionary;0.9930525401650022;0.0
+LogisticRegression;Evolutionary;1.0;0.0
+FastText;Evolutionary;0.9722222222222222;0.0

@@ -1,0 +1,15 @@
+{
+  "model": "LogisticRegression",
+  "algorithm": "GridSearchCV",
+  "best_f1_train": 0.9130690926623144,
+  "f1_holdout": 1.0,
+  "accuracy_holdout": 1.0,
+  "best_params": {
+    "clf__C": 10,
+    "tfidf__ngram_range": [
+      1,
+      1
+    ]
+  },
+  "runtime_seconds": 5.24
+}

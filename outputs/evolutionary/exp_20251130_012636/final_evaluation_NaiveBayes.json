@@ -1,0 +1,14 @@
+{
+  "Holdout_F1": 0.9930525401650022,
+  "Holdout_precision": 0.9933333333333333,
+  "Holdout_recall": 0.9930555555555555,
+  "Holdout_accuracy": 0.9930555555555556,
+  "Modelo": "NaiveBayes",
+  "Parametros": {
+    "alpha": 0.01,
+    "ngram_range": [
+      1,
+      2
+    ]
+  }
+}

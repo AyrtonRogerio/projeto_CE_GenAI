@@ -1,0 +1,5 @@
+model;algorithm;best_f1_train;best_params;runtime_seconds
+LogisticRegression;GridSearchCV;0.9130690926623144;{'clf__C': 10, 'tfidf__ngram_range': (1, 1)};5.16
+MultinomialNB;GridSearchCV;0.9312188929884446;{'clf__alpha': 0.1, 'tfidf__ngram_range': (1, 2)};0.14
+LinearSVC;GridSearchCV;0.9511224753588443;{'clf__C': 10, 'tfidf__ngram_range': (1, 1)};0.13
+FastText;Optuna;0.047619047619047616;{'lr': 0.3741906621017037, 'dim': 50, 'epoch': 14, 'wordNgrams': 1};

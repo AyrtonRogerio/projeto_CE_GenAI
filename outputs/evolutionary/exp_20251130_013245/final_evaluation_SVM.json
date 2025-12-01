@@ -1,0 +1,15 @@
+{
+  "Holdout_F1": 1.0,
+  "Holdout_precision": 1.0,
+  "Holdout_recall": 1.0,
+  "Holdout_accuracy": 1.0,
+  "Modelo": "SVM",
+  "Parametros": {
+    "C": 100.0,
+    "kernel": "sigmoid",
+    "ngram_range": [
+      1,
+      1
+    ]
+  }
+}
