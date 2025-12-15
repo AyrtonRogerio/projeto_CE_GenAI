@@ -1,0 +1,263 @@
+"demanda_id"|"classificacao_real"|"prompt_id"|"modelo_id"|"classificacao_limpa"|"acertou"|"demanda_texto"|"classificacao_raw"|"tempo_resposta_s"|"erro"|"try_count"
+"0001"|"Sugestão"|"zero_shot_direto"|"gemini-2.5-flash-lite"|"Sugestão"|"1"|"Sugiro a implementação de um programa de compostagem comunitária em Caruaru, com pontos de coleta em feiras e mercados. Isso reduziria o volume de lixo e produziria adubo para hortas urbanas"|"Sugestão"|"0.9453470706939697"|""|"1"
+"0001"|"Sugestão"|"zero_shot_direto"|"gpt-5-nano"|"Sugestão"|"1"|"Sugiro a implementação de um programa de compostagem comunitária em Caruaru, com pontos de coleta em feiras e mercados. Isso reduziria o volume de lixo e produziria adubo para hortas urbanas"|"Sugestão"|"4.229324817657471"|""|"1"
+"0001"|"Sugestão"|"zero_shot_direto"|"llama-3.1-8b-instant"|"Sugestão"|"1"|"Sugiro a implementação de um programa de compostagem comunitária em Caruaru, com pontos de coleta em feiras e mercados. Isso reduziria o volume de lixo e produziria adubo para hortas urbanas"|"Sugestão"|"0.4347093105316162"|""|"1"
+"0001"|"Sugestão"|"zero_shot_cot"|"gemini-2.5-flash-lite"|"Sugestão"|"1"|"Sugiro a implementação de um programa de compostagem comunitária em Caruaru, com pontos de coleta em feiras e mercados. Isso reduziria o volume de lixo e produziria adubo para hortas urbanas"|"O texto apresenta uma proposta de melhoria para o município, detalhando como ela poderia ser implementada e quais benefícios traria. A palavra ""sugiro"" indica claramente a natureza propositiva da manifestação.
+
+Categoria Final: Sugestão"|"0.730381965637207"|""|"1"
+"0001"|"Sugestão"|"zero_shot_cot"|"gpt-5-nano"|"Sugestão"|"1"|"Sugiro a implementação de um programa de compostagem comunitária em Caruaru, com pontos de coleta em feiras e mercados. Isso reduziria o volume de lixo e produziria adubo para hortas urbanas"|"Raciocínio: O texto utiliza a palavra ""Sugiro"" e apresenta uma proposta de ação pública voltada a melhoria ambiental e comunitária, caracterizando uma sugestão. Não é elogio direto, crítica, nem requerimento formal de acesso à informação ou uma denúncia.
+
+Categoria Final: Sugestão"|"6.3724045753479"|""|"1"
+"0001"|"Sugestão"|"zero_shot_cot"|"llama-3.1-8b-instant"|"Sugestão"|"1"|"Sugiro a implementação de um programa de compostagem comunitária em Caruaru, com pontos de coleta em feiras e mercados. Isso reduziria o volume de lixo e produziria adubo para hortas urbanas"|"Raciocínio:
+
+O texto apresentado contém uma sugestão específica para a implementação de um programa de compostagem comunitária em Caruaru. A linguagem utilizada é objetiva e propõe uma solução concreta para um problema local (volume de lixo e produção de adubo para hortas urbanas). A sugestão também apresenta uma alternativa prática (pontos de coleta em feiras e mercados). Portanto, o conteúdo é uma proposição de melhoria para o local em questão.
+
+Categoria Final: Sugestão"|"0.5351202487945557"|""|"1"
+"0001"|"Sugestão"|"few_shot_completo"|"gemini-2.5-flash-lite"|"Sugestão"|"1"|"Sugiro a implementação de um programa de compostagem comunitária em Caruaru, com pontos de coleta em feiras e mercados. Isso reduziria o volume de lixo e produziria adubo para hortas urbanas"|"Sugestão"|"0.6373841762542725"|""|"1"
+"0001"|"Sugestão"|"few_shot_completo"|"gpt-5-nano"|"Sugestão"|"1"|"Sugiro a implementação de um programa de compostagem comunitária em Caruaru, com pontos de coleta em feiras e mercados. Isso reduziria o volume de lixo e produziria adubo para hortas urbanas"|"Sugestão"|"2.582812547683716"|""|"1"
+"0001"|"Sugestão"|"few_shot_completo"|"llama-3.1-8b-instant"|"Sugestão"|"1"|"Sugiro a implementação de um programa de compostagem comunitária em Caruaru, com pontos de coleta em feiras e mercados. Isso reduziria o volume de lixo e produziria adubo para hortas urbanas"|"Sugestão"|"0.43425965309143066"|""|"1"
+"0001"|"Sugestão"|"meta_prompt_melhor_prompt"|"gemini-2.5-flash-lite"|"NAO_MAPEADO"|"0"|"Sugiro a implementação de um programa de compostagem comunitária em Caruaru, com pontos de coleta em feiras e mercados. Isso reduziria o volume de lixo e produziria adubo para hortas urbanas"|"Classifique a seguinte manifestação de ouvidoria em uma das seguintes categorias: Elogio, Crítica, Sugestão, Pedido de LAI, Solicitação, Denúncia.
+
+Analise o texto da manifestação e determine a intenção principal do autor.
+
+*   Se o autor expressa gratidão ou admiração por um serviço, produto ou ação, classifique como **Elogio**.
+*   Se o autor expressa insatisfação, desaprovação ou aponta falhas em um serviço, produto ou ação, classifique como **Crítica**.
+*   Se o autor propõe uma melhoria, ideia ou alternativa para um serviço, produto ou processo, classifique como **Sugestão**.
+*   Se o autor solicita acesso a informações públicas regidas pela Lei de Acesso à Informação (LAI), classifique como **Pedido de LAI**.
+*   Se o autor pede algo específico, um favor ou requisição que não se enquadra nas outras categorias, classifique como **Solicitação**.
+*   Se o autor relata um ato irregular, ilegal, antiético ou infração, classifique como **Denúncia**.
+
+Responda APENAS com a categoria que melhor descreve a manifestação. Não inclua justificativas, explicações adicionais ou qualquer outro texto.
+
+Manifestação: {{manifestacao}}"|"1.455413818359375"|""|"1"
+"0001"|"Sugestão"|"meta_prompt_melhor_prompt"|"gpt-5-nano"|"NAO_MAPEADO"|"0"|"Sugiro a implementação de um programa de compostagem comunitária em Caruaru, com pontos de coleta em feiras e mercados. Isso reduziria o volume de lixo e produziria adubo para hortas urbanas"|"Você é um classificador automático de manifestações da ouvidoria. Sua tarefa é ler uma mensagem recebida pela ouvidoria e atribuir exatamente uma das categorias a seguir: Elogio, Crítica, Sugestão, Pedido de LAI, Solicitação, Denúncia.
+
+Definições das categorias:
+- Elogio: expressão de aprovação, agradecimento ou reconhecimento positivo em relação ao atendimento, serviço ou órgão.
+- Crítica: manifestação de insatisfação, falhas, problemas ou desapontamento com o atendimento, serviço ou processos.
+- Sugestão: proposta de melhoria, ideia ou recomendação para aprimoramento.
+- Pedido de LAI: solicitação de informações ou dados cobertos pela Lei de Acesso à Informação (LAI).
+- Solicitação: requerimento de serviço, ação ou informação que não envolve LAI.
+- Denúncia: relato de irregularidades, ilegalidades ou mau uso de recursos com objetivo de apuração.
+
+Instruções de resposta:
+- Responda apenas com uma única categoria, exatamente uma das opções listadas acima.
+- Em casos de mensagens com mais de uma intenção, identifique a intenção principal e classifique pela categoria correspondente.
+- Em caso de ambiguidade ou ausência de clareza suficiente, escolha a categoria que melhor representa a ação principal, com base em palavras-chave e no tom predominante.
+- Não inclua outras palavras, explicações, nem qualquer outro texto além do rótulo da categoria.
+
+Texto da manifestação:"|"36.374131202697754"|""|"1"
+"0001"|"Sugestão"|"meta_prompt_melhor_prompt"|"llama-3.1-8b-instant"|"Crítica"|"0"|"Sugiro a implementação de um programa de compostagem comunitária em Caruaru, com pontos de coleta em feiras e mercados. Isso reduziria o volume de lixo e produziria adubo para hortas urbanas"|"""Classifique as seguintes manifestações de ouvidoria de acordo com as categorias abaixo, instruindo o modelo a responder com apenas uma categoria válida e sendo claro, conciso e preciso. Caso haja dúvida ou falta de informações, utilize a categoria 'Solicitação'.
+
+- Elogio: manifestações positivas que elogiam serviços, produtos ou equipamentos.
+- Crítica: manifestações negativas que apontam erros, problemas ou pontos negativos.
+- Sugestão: manifestações que oferecem propostas ou idéias para melhorar serviços, produtos ou processos.
+- Pedido de LAI (Atendimento ao Cidadão): manifestações que solicitam atendimento ou informações sobre direitos e serviços.
+- Solicitação: manifestações que pedem ação ou resolução de um problema, mas não cabe ao modelo determinar a prioridade.
+- Denúncia: manifestações que relatam abusos, ilegalidades, fraude, corrupção, ou qualquer tipo de má conduta.
+
+Forneça a categoria que melhor classifica a manifestação considerando a linguagem utilizada e o contexto. Exemplo:
+'Deu excelente atendimento ao meu problema.' → Categoria: Elogio
+'O produto que comprei está com defeito!' → Categoria: Crítica"""|"0.9460175037384033"|""|"1"
+"0002"|"Sugestão"|"zero_shot_direto"|"gemini-2.5-flash-lite"|"Sugestão"|"1"|"Proponho que Caruaru adote um programa de compostagem comunitária. Com pontos de coleta em locais estratégicos, como feiras e mercados, poderíamos diminuir a quantidade de lixo e gerar adubo para hortas urbanas"|"Sugestão"|"0.6357824802398682"|""|"1"
+"0002"|"Sugestão"|"zero_shot_direto"|"gpt-5-nano"|"Sugestão"|"1"|"Proponho que Caruaru adote um programa de compostagem comunitária. Com pontos de coleta em locais estratégicos, como feiras e mercados, poderíamos diminuir a quantidade de lixo e gerar adubo para hortas urbanas"|"Sugestão"|"3.403348207473755"|""|"1"
+"0002"|"Sugestão"|"zero_shot_direto"|"llama-3.1-8b-instant"|"Sugestão"|"1"|"Proponho que Caruaru adote um programa de compostagem comunitária. Com pontos de coleta em locais estratégicos, como feiras e mercados, poderíamos diminuir a quantidade de lixo e gerar adubo para hortas urbanas"|"Sugestão"|"0.32993268966674805"|""|"1"
+"0002"|"Sugestão"|"zero_shot_cot"|"gemini-2.5-flash-lite"|"Sugestão"|"1"|"Proponho que Caruaru adote um programa de compostagem comunitária. Com pontos de coleta em locais estratégicos, como feiras e mercados, poderíamos diminuir a quantidade de lixo e gerar adubo para hortas urbanas"|"O texto apresenta uma proposta concreta para aprimorar a gestão de resíduos e os espaços urbanos, detalhando a forma de implementação e os benefícios. Não se trata de uma reclamação, elogio, pedido de informação ou uma solicitação de algo que já deveria existir.
+
+Categoria Final: Sugestão"|"0.8412892818450928"|""|"1"
+"0002"|"Sugestão"|"zero_shot_cot"|"gpt-5-nano"|"Sugestão"|"1"|"Proponho que Caruaru adote um programa de compostagem comunitária. Com pontos de coleta em locais estratégicos, como feiras e mercados, poderíamos diminuir a quantidade de lixo e gerar adubo para hortas urbanas"|"Raciocínio: O texto propõe uma ação prática para a cidade (implementação de um programa de compostagem comunitária) com benefícios ambientais e sociais. Não é elogio nem crítica, é uma sugestão de política pública/ação.
+
+Categoria Final: Sugestão"|"8.625281810760498"|""|"1"
+"0002"|"Sugestão"|"zero_shot_cot"|"llama-3.1-8b-instant"|"Sugestão"|"1"|"Proponho que Caruaru adote um programa de compostagem comunitária. Com pontos de coleta em locais estratégicos, como feiras e mercados, poderíamos diminuir a quantidade de lixo e gerar adubo para hortas urbanas"|"Raciocínio:
+
+O texto apresenta uma proposta concreta para melhorar a cidade de Caruaru, especificamente sugerindo a adoção de um programa de compostagem comunitária. A linguagem usada é positiva e construtiva, com um foco em resolver um problema específico (diminuir a quantidade de lixo) e gerar um benefício adicional (gerar adubo para hortas urbanas). Essa abordagem sugere que a proposta é baseada em uma análise crítica do problema e em uma solução objetiva.
+
+Categoria Final: Sugestão"|"0.5363202095031738"|""|"1"
+"0002"|"Sugestão"|"few_shot_completo"|"gemini-2.5-flash-lite"|"Sugestão"|"1"|"Proponho que Caruaru adote um programa de compostagem comunitária. Com pontos de coleta em locais estratégicos, como feiras e mercados, poderíamos diminuir a quantidade de lixo e gerar adubo para hortas urbanas"|"Sugestão"|"0.7391161918640137"|""|"1"
+"0002"|"Sugestão"|"few_shot_completo"|"gpt-5-nano"|"Sugestão"|"1"|"Proponho que Caruaru adote um programa de compostagem comunitária. Com pontos de coleta em locais estratégicos, como feiras e mercados, poderíamos diminuir a quantidade de lixo e gerar adubo para hortas urbanas"|"Sugestão"|"4.4613869190216064"|""|"1"
+"0002"|"Sugestão"|"few_shot_completo"|"llama-3.1-8b-instant"|"Sugestão"|"1"|"Proponho que Caruaru adote um programa de compostagem comunitária. Com pontos de coleta em locais estratégicos, como feiras e mercados, poderíamos diminuir a quantidade de lixo e gerar adubo para hortas urbanas"|"Sugestão"|"0.398970365524292"|""|"1"
+"0002"|"Sugestão"|"meta_prompt_melhor_prompt"|"gemini-2.5-flash-lite"|"NAO_MAPEADO"|"0"|"Proponho que Caruaru adote um programa de compostagem comunitária. Com pontos de coleta em locais estratégicos, como feiras e mercados, poderíamos diminuir a quantidade de lixo e gerar adubo para hortas urbanas"|"Você é um classificador especializado de manifestações de ouvidoria. Sua única tarefa é ler o texto da manifestação fornecida e atribuí-la a uma das seguintes categorias: Elogio, Crítica, Sugestão, Pedido de LAI, Solicitação, Denúncia.
+
+Sua resposta deve ser **exclusivamente** uma única palavra correspondente a uma das categorias listadas. Não inclua nenhuma outra informação, justificativa ou explicação.
+
+A classificação deve ser feita com base na intenção principal e no conteúdo da manifestação.
+
+Exemplos:
+- Se a manifestação expressa satisfação ou reconhecimento, classifique como Elogio.
+- Se a manifestação aponta um problema, falha ou insatisfação, classifique como Crítica.
+- Se a manifestação propõe uma melhoria ou nova ideia, classifique como Sugestão.
+- Se a manifestação solicita acesso a informações públicas nos termos da Lei de Acesso à Informação, classifique como Pedido de LAI.
+- Se a manifestação pede algo específico que não se enquadra nas outras categorias, classifique como Solicitação.
+- Se a manifestação relata um ato ilegal, irregular ou antiético, classifique como Denúncia.
+
+Analise a seguinte manifestação e retorne apenas a categoria correta:
+
+[TEXTO DA MANIFESTAÇÃO AQUI]"|"2.785980463027954"|""|"1"
+"0002"|"Sugestão"|"meta_prompt_melhor_prompt"|"gpt-5-nano"|"Denúncia"|"0"|"Proponho que Caruaru adote um programa de compostagem comunitária. Com pontos de coleta em locais estratégicos, como feiras e mercados, poderíamos diminuir a quantidade de lixo e gerar adubo para hortas urbanas"|"Você é um classificador automático de manifestações da ouvidoria. Sua tarefa é ler o texto de uma manifestação recebida pela ouvidoria e atribuir uma das categorias oficiais a seguir: Elogio; Crítica; Sugestão; Pedido de LAI; Solicitação; Denúncia. Regras obrigatórias: 1) Responda apenas com uma das categorias acima, exatamente como escrita, sem qualquer outro texto. 2) Baseie-se na motivação predominante expressa no conteúdo da mensagem para escolher a categoria. 3) Se houver elementos de várias categorias, escolha aquela que melhor descreve a intenção principal. 4) Não inclua explicações, exemplos ou qualquer outro texto; a saída deve ser apenas a categoria.
+- Elogio: conteúdo que expressa satisfação, agradecimento ou reconhecimento pela atuação da ouvidoria ou de seus serviços.
+- Crítica: expressa insatisfação, reclamação, apontando falhas ou defeitos.
+- Sugestão: propõe melhorias, ideias ou mudanças de procedimentos.
+- Pedido de LAI: solicita informações de acesso à informação pública, conforme LAI.
+- Solicitação: requer serviços ou informações não enquadradas como LAI; solicita atendimento, informações, recursos, etc.
+- Denúncia: relata irregularidades, conduta inadequada, possível ilícito ou crime, requer investigação ou apuração."|"39.802738904953"|""|"1"
+"0002"|"Sugestão"|"meta_prompt_melhor_prompt"|"llama-3.1-8b-instant"|"Elogio"|"0"|"Proponho que Caruaru adote um programa de compostagem comunitária. Com pontos de coleta em locais estratégicos, como feiras e mercados, poderíamos diminuir a quantidade de lixo e gerar adubo para hortas urbanas"|"""Classifique o texto de ouvidoria como uma das seguintes categorias: Elogio, Crítica, Sugestão, Pedido de LAI, Solicitação ou Denúncia. Para isso, você deve analisar o conteúdo da Mensagem e identificar a intenção ou tom do autor. Se o texto for um comentário positivo, é uma Crítica, se for um comentário negativo é uma Elogio; se for uma proposta de melhoria, é uma Sugestão; se for uma solicitação de acesso a informações ou documentos, é um Pedido de LAI; se for uma solicitação de ação específica, é uma Solicitação; se for uma informação que sugira um problema ou ilegalidade, é uma Denúncia. Responda com a categoria mais apropriada e, se necessário, especifique qual categoria com base no contexto."""|"0.7933588027954102"|""|"1"
+"0003"|"Sugestão"|"zero_shot_direto"|"gemini-2.5-flash-lite"|"Sugestão"|"1"|"Minha sugestão é que a prefeitura de Caruaru crie um programa de compostagem. A implementação de pontos de coleta ajudaria a reduzir o lixo orgânico e a criar adubo para as hortas da cidade"|"Sugestão"|"0.5978169441223145"|""|"1"
+"0003"|"Sugestão"|"zero_shot_direto"|"gpt-5-nano"|"Sugestão"|"1"|"Minha sugestão é que a prefeitura de Caruaru crie um programa de compostagem. A implementação de pontos de coleta ajudaria a reduzir o lixo orgânico e a criar adubo para as hortas da cidade"|"Sugestão"|"3.7205886840820312"|""|"1"
+"0003"|"Sugestão"|"zero_shot_direto"|"llama-3.1-8b-instant"|"Sugestão"|"1"|"Minha sugestão é que a prefeitura de Caruaru crie um programa de compostagem. A implementação de pontos de coleta ajudaria a reduzir o lixo orgânico e a criar adubo para as hortas da cidade"|"Sugestão"|"0.3607912063598633"|""|"1"
+"0003"|"Sugestão"|"zero_shot_cot"|"gemini-2.5-flash-lite"|"Sugestão"|"1"|"Minha sugestão é que a prefeitura de Caruaru crie um programa de compostagem. A implementação de pontos de coleta ajudaria a reduzir o lixo orgânico e a criar adubo para as hortas da cidade"|"O texto apresenta uma proposta concreta de ação para a prefeitura, com o objetivo de melhorar um serviço público e trazer benefícios ambientais e sociais. Não se trata de expressar descontentamento, elogiar um serviço existente, pedir informação sob a LAI, ou solicitar algo de forma direta.
+
+Categoria Final: Sugestão"|"0.8420939445495605"|""|"1"
+"0003"|"Sugestão"|"zero_shot_cot"|"gpt-5-nano"|"Sugestão"|"1"|"Minha sugestão é que a prefeitura de Caruaru crie um programa de compostagem. A implementação de pontos de coleta ajudaria a reduzir o lixo orgânico e a criar adubo para as hortas da cidade"|"Raciocínio: O texto propõe uma melhoria para a prefeitura (criar um programa de compostagem) com benefícios ambientais, caracterizando-se como sugestão.
+
+Categoria Final: Sugestão"|"8.07911467552185"|""|"1"
+"0003"|"Sugestão"|"zero_shot_cot"|"llama-3.1-8b-instant"|"Sugestão"|"1"|"Minha sugestão é que a prefeitura de Caruaru crie um programa de compostagem. A implementação de pontos de coleta ajudaria a reduzir o lixo orgânico e a criar adubo para as hortas da cidade"|"O raciocínio é o seguinte:
+
+- O texto começa com a palavra ""Minha sugestão"", o que já sugere que o autor está apresentando uma proposta ou ideia.
+- Em seguida, o autor descreve um problema específico (o lixo orgânico) e apresenta uma solução (criar um programa de compostagem).
+- A sugestão apresentada é específica e detalhada, com uma proposta prática de implementação (criar pontos de coleta e criar adubo para as hortas da cidade).
+
+Com base nesses elementos, podemos determinar a categoria do texto.
+
+Categoria Final: Sugestão"|"0.6718263626098633"|""|"1"
+"0003"|"Sugestão"|"few_shot_completo"|"gemini-2.5-flash-lite"|"Sugestão"|"1"|"Minha sugestão é que a prefeitura de Caruaru crie um programa de compostagem. A implementação de pontos de coleta ajudaria a reduzir o lixo orgânico e a criar adubo para as hortas da cidade"|"Sugestão"|"0.6373836994171143"|""|"1"
+"0003"|"Sugestão"|"few_shot_completo"|"gpt-5-nano"|"Sugestão"|"1"|"Minha sugestão é que a prefeitura de Caruaru crie um programa de compostagem. A implementação de pontos de coleta ajudaria a reduzir o lixo orgânico e a criar adubo para as hortas da cidade"|"Sugestão"|"2.1727776527404785"|""|"1"
+"0003"|"Sugestão"|"few_shot_completo"|"llama-3.1-8b-instant"|"Sugestão"|"1"|"Minha sugestão é que a prefeitura de Caruaru crie um programa de compostagem. A implementação de pontos de coleta ajudaria a reduzir o lixo orgânico e a criar adubo para as hortas da cidade"|"Sugestão"|"0.43241214752197266"|""|"1"
+"0003"|"Sugestão"|"meta_prompt_melhor_prompt"|"gemini-2.5-flash-lite"|"NAO_MAPEADO"|"0"|"Minha sugestão é que a prefeitura de Caruaru crie um programa de compostagem. A implementação de pontos de coleta ajudaria a reduzir o lixo orgânico e a criar adubo para as hortas da cidade"|"Você é um classificador de manifestações de ouvidoria. Sua tarefa é ler a manifestação fornecida e classificá-la em uma das seguintes categorias: Elogio, Crítica, Sugestão, Pedido de LAI, Solicitação, Denúncia.
+
+Analise o conteúdo da manifestação com atenção. Se a manifestação expressar satisfação, apreço ou reconhecimento por um serviço, produto ou atendimento, classifique como **Elogio**. Se a manifestação apontar falhas, insatisfação, problemas ou aspectos negativos, classifique como **Crítica**. Se a manifestação apresentar uma proposta de melhoria, ideia nova ou recomendação para algo que poderia ser feito de forma diferente ou adicionada, classifique como **Sugestão**. Se a manifestação for uma solicitação formal de acesso a informações públicas nos termos da Lei de Acesso à Informação, classifique como **Pedido de LAI**. Se a manifestação for um pedido de informação, esclarecimento, providência ou auxílio que não se enquadre estritamente nas outras categorias (exceto LAI), classifique como **Solicitação**. Se a manifestação relatar um ato irregular, ilegal, antiético ou conduta indevida, classifique como **Denúncia**.
+
+Responda APENAS com uma das categorias listadas acima. Não adicione explicações, comentários ou qualquer outro texto.
+
+Manifestação:
+{{manifestacao}}"|"1.4559674263000488"|""|"1"
+"0003"|"Sugestão"|"meta_prompt_melhor_prompt"|"gpt-5-nano"|"NAO_MAPEADO"|"0"|"Minha sugestão é que a prefeitura de Caruaru crie um programa de compostagem. A implementação de pontos de coleta ajudaria a reduzir o lixo orgânico e a criar adubo para as hortas da cidade"|"Você é um classificador de manifestações da ouvidoria. Dado um texto de entrada, identifique apenas uma categoria entre: Elogio, Crítica, Sugestão, Pedido de LAI, Solicitação, Denúncia. A saída deve ser somente o nome da categoria, em português, exatamente como listado, sem qualquer explicação, comentário ou formatação adicional.
+
+Regras de classificação (priorize estas diretrizes ao interpretar o texto):
+1) Pedido de LAI: usar se houver menção explícita à LAI, à Lei de Acesso à Informação ou a pedidos de informações públicas/acesso a dados sob esse regime.
+2) Denúncia: usar se houver menção de irregularidade, ilegalidade, conduta inadequada ou crime, com ou sem evidências.
+3) Solicitação: usar se houver pedido de serviços ou informações não enquadradas como LAI (por exemplo, pedido de atendimento, agendamento, informações gerais), sem referência direta à LAI.
+4) Elogio: usar se houver expressões de agradecimento, reconhecimento ou tom claramente positivo.
+5) Sugestão: usar se houver proposições de melhoria, ideias, recomendações ou pedidos para mudanças.
+6) Crítica: usar para expressões de insatisfação, falhas, problemas ou avaliação negativa sem o conteúdo caracterizar uma sugestão ou denúncia.
+7) Desempate: na ausência de indicação clara, classifique como Crítica. Se houver menção explícita de irregularidade ou crime, priorize Denúncia; se houver pedido explícito de informações LAI, priorize Pedido de LAI.
+8) Validação de saída: não inclua qualquer texto além do nome da categoria."|"46.10496664047241"|""|"1"
+"0003"|"Sugestão"|"meta_prompt_melhor_prompt"|"llama-3.1-8b-instant"|"Elogio"|"0"|"Minha sugestão é que a prefeitura de Caruaru crie um programa de compostagem. A implementação de pontos de coleta ajudaria a reduzir o lixo orgânico e a criar adubo para as hortas da cidade"|"""Classifique a manifestação de ouvidoria abaixo como uma das seguintes categorias: Elogio, Crítica, Sugestão, Pedido de LAI, Solicitação ou Denúncia. Sua resposta deve ser a categorização mais apropriada com base no conteúdo da entrada. Evite ambiguidades e selecione apenas uma categoria válida. Se a entrada não puder ser classificada com clareza, responda com uma mensagem de ""Nao classificável""."|"0.5346372127532959"|""|"1"
+"0004"|"Sugestão"|"zero_shot_direto"|"gemini-2.5-flash-lite"|"Sugestão"|"1"|"Acredito que a implementação de um programa de compostagem comunitária em Caruaru traria muitos benefícios. Com pontos de coleta em feiras e mercados, diminuiríamos a quantidade de lixo e produziríamos adubo natural para hortas urbanas"|"Sugestão"|"0.5565226078033447"|""|"1"
+"0004"|"Sugestão"|"zero_shot_direto"|"gpt-5-nano"|"Sugestão"|"1"|"Acredito que a implementação de um programa de compostagem comunitária em Caruaru traria muitos benefícios. Com pontos de coleta em feiras e mercados, diminuiríamos a quantidade de lixo e produziríamos adubo natural para hortas urbanas"|"Sugestão"|"3.46476674079895"|""|"1"
+"0004"|"Sugestão"|"zero_shot_direto"|"llama-3.1-8b-instant"|"Sugestão"|"1"|"Acredito que a implementação de um programa de compostagem comunitária em Caruaru traria muitos benefícios. Com pontos de coleta em feiras e mercados, diminuiríamos a quantidade de lixo e produziríamos adubo natural para hortas urbanas"|"Sugestão"|"0.3505561351776123"|""|"1"
+"0004"|"Sugestão"|"zero_shot_cot"|"gemini-2.5-flash-lite"|"Sugestão"|"1"|"Acredito que a implementação de um programa de compostagem comunitária em Caruaru traria muitos benefícios. Com pontos de coleta em feiras e mercados, diminuiríamos a quantidade de lixo e produziríamos adubo natural para hortas urbanas"|"Raciocínio: O texto apresenta uma ideia para melhorar um serviço ou processo, propondo uma ação específica com justificativa dos benefícios. Não se trata de uma reclamação, um pedido de informação, uma solicitação direta ou uma denúncia.
+
+Categoria Final: Sugestão"|"1.3545629978179932"|""|"1"
+"0004"|"Sugestão"|"zero_shot_cot"|"gpt-5-nano"|"Sugestão"|"1"|"Acredito que a implementação de um programa de compostagem comunitária em Caruaru traria muitos benefícios. Com pontos de coleta em feiras e mercados, diminuiríamos a quantidade de lixo e produziríamos adubo natural para hortas urbanas"|"Raciocínio: O texto propõe uma ação concreta (implantação de um programa de compostagem) com sugestões de implementação e benefícios, caracterizando uma sugestão de melhoria pública.
+
+Categoria Final: Sugestão"|"7.804470777511597"|""|"1"
+"0004"|"Sugestão"|"zero_shot_cot"|"llama-3.1-8b-instant"|"Sugestão"|"1"|"Acredito que a implementação de um programa de compostagem comunitária em Caruaru traria muitos benefícios. Com pontos de coleta em feiras e mercados, diminuiríamos a quantidade de lixo e produziríamos adubo natural para hortas urbanas"|"Meu raciocínio é o seguinte:
+
+O texto apresenta uma proposta para implementar um programa de compostagem comunitária em Caruaru, destacando os benefícios potenciais, como a diminuição da quantidade de lixo e a produção de adubo natural. A linguagem usada é assertiva e sugestiva, indicando uma intenção de propor uma ideia para melhoria.
+
+Essa análise leva a considerar que o texto não está criticando ou denunciando um problema, mas sim apresentando uma sugestão para a melhoria da cidade.
+
+Resposta final:
+Categoria Final: Sugestão"|"0.5313746929168701"|""|"1"
+"0004"|"Sugestão"|"few_shot_completo"|"gemini-2.5-flash-lite"|"Sugestão"|"1"|"Acredito que a implementação de um programa de compostagem comunitária em Caruaru traria muitos benefícios. Com pontos de coleta em feiras e mercados, diminuiríamos a quantidade de lixo e produziríamos adubo natural para hortas urbanas"|"Sugestão"|"0.7427904605865479"|""|"1"
+"0004"|"Sugestão"|"few_shot_completo"|"gpt-5-nano"|"Sugestão"|"1"|"Acredito que a implementação de um programa de compostagem comunitária em Caruaru traria muitos benefícios. Com pontos de coleta em feiras e mercados, diminuiríamos a quantidade de lixo e produziríamos adubo natural para hortas urbanas"|"Sugestão"|"2.841308116912842"|""|"1"
+"0004"|"Sugestão"|"few_shot_completo"|"llama-3.1-8b-instant"|"Sugestão"|"1"|"Acredito que a implementação de um programa de compostagem comunitária em Caruaru traria muitos benefícios. Com pontos de coleta em feiras e mercados, diminuiríamos a quantidade de lixo e produziríamos adubo natural para hortas urbanas"|"Sugestão"|"0.586240291595459"|""|"1"
+"0004"|"Sugestão"|"meta_prompt_melhor_prompt"|"gemini-2.5-flash-lite"|"NAO_MAPEADO"|"0"|"Acredito que a implementação de um programa de compostagem comunitária em Caruaru traria muitos benefícios. Com pontos de coleta em feiras e mercados, diminuiríamos a quantidade de lixo e produziríamos adubo natural para hortas urbanas"|"Classifique a seguinte manifestação de ouvidoria em UMA das seguintes categorias: Elogio, Crítica, Sugestão, Pedido de LAI, Solicitação, Denúncia. Responda APENAS com a categoria escolhida.
+
+Manifestação: [INSERIR TEXTO DA MANIFESTAÇÃO AQUI]"|"1.0896351337432861"|""|"1"
+"0004"|"Sugestão"|"meta_prompt_melhor_prompt"|"gpt-5-nano"|"Elogio"|"0"|"Acredito que a implementação de um programa de compostagem comunitária em Caruaru traria muitos benefícios. Com pontos de coleta em feiras e mercados, diminuiríamos a quantidade de lixo e produziríamos adubo natural para hortas urbanas"|"Você é um classificador automático de manifestações de ouvidoria. Dará uma única categoria correspondente a cada mensagem recebida, dentre as seguintes: Elogio, Crítica, Sugestão, Pedido de LAI, Solicitação, Denúncia. Responda apenas com a categoria correspondente (ex.: Elogio) e não inclua nenhum outro texto.
+
+Critérios de atribuição (orientação objetiva):
+- Elogio: conteúdo majoritariamente positivo, reconhecimento ou agradecimento pela boa experiência; palavras-chave típicas: ""parabéns"", ""agradeço"", ""ótimo atendimento"", ""cumprimento"".
+- Crítica: expressão de insatisfação ou reclamação sobre serviço, atendimento ou funcionamento; linguagem negativa sem pedir informações sob LAI.
+- Sugestão: proposta de melhoria, ideia ou recomendação para aprimorar processos ou serviços; sinais: ""sugiro"", ""recomendo"", ""seria bom"".
+- Pedido de LAI: solicitação de acesso a informações públicas sob a Lei de Acesso à Informação (LAI); sinais: referência explícita a LAI, ""acesso à informação"", ""pedido de informações"".
+- Solicitação: pedido genérico ou pedido de providências que não configuram LAI; sinais: ""solicito"", ""poderia providenciar"", ""preciso de"".
+- Denúncia: relato de irregularidade, conduta inadequada, crime ou abuso por órgão público ou servidor; sinais: ""denúncia"", ""irregularidade"", ""crime"", ""corrupção"".
+
+Regra de desambiguação (reduz ambiguidades):
+- Se a mensagem contiver sinais claros de Denúncia, Classifique como Denúncia, mesmo que haja outros elementos.
+- Se não houver Denúncia, mas houver referência explícita à LAI ou pedido de information under LAI, Classifique como Pedido de LAI.
+- Se houver elogio evidente, Classifique como Elogio, desde que não haja sinal claro de outra categoria.
+- Se houver reclamação ou insatisfação sem LAI, Classifique como Crítica.
+- Se houver sugestão explícita de melhoria, Classifique como Sugestão.
+- Se não houver sinais de LAI, nem de Denúncia, e não for claramente elogio/crítica/sugestão, Classifique como Solicitação.
+
+Formato de saída:
+- Aplique a regra acima e responda apenas com uma das seguintes palavras exatamente: Elogio, Crítica, Sugestão, Pedido de LAI, Solicitação, Denúncia."|"41.24604773521423"|""|"1"
+"0004"|"Sugestão"|"meta_prompt_melhor_prompt"|"llama-3.1-8b-instant"|"Elogio"|"0"|"Acredito que a implementação de um programa de compostagem comunitária em Caruaru traria muitos benefícios. Com pontos de coleta em feiras e mercados, diminuiríamos a quantidade de lixo e produziríamos adubo natural para hortas urbanas"|"""Classifique esta manifestação de ouvidoria como uma das seguintes categorias: Elogio, Crítica, Sugestão, Pedido de LAI (Requerimento Legislativo), Solicitação ou Denúncia. Para classificar, leia cuidadosamente o conteúdo e identifique a intenção do autor. Caso a intenção seja expressar aprovação ou admiração, utilize a categoria 'Elogio'. Se a crítica for expressa de forma constructiva, utilizando linguagem respeitosa, classifique como 'Crítica'. Se a manifestação contiver idéias para melhoria ou desenvolvimento, utilize a categoria 'Sugestão'. Se a solicitação seja de informação ou ação específica, classifique como 'Solicitação'. Se a manifestação contenha acusações ou informações comprometedoras, classifique como 'Denúncia'. Se a solicitação for relacionada a uma ação legislativa ou política, classifique como 'Pedido de LAI'. Caso a intenção ou conteúdo não se encaixe em nenhuma dessas categorias, repita a manifestação para análise adicional. Responda somente com uma das categorias válidas."""|"0.8205916881561279"|""|"1"
+"0005"|"Sugestão"|"zero_shot_direto"|"gemini-2.5-flash-lite"|"Sugestão"|"1"|"Sugiro que Caruaru implemente um sistema de compostagem comunitária. A criação de pontos de coleta em feiras e mercados seria uma ótima maneira de reduzir o volume de lixo e usar o material orgânico para enriquecer o solo de hortas urbanas"|"Sugestão"|"0.6588714122772217"|""|"1"
+"0005"|"Sugestão"|"zero_shot_direto"|"gpt-5-nano"|"Sugestão"|"1"|"Sugiro que Caruaru implemente um sistema de compostagem comunitária. A criação de pontos de coleta em feiras e mercados seria uma ótima maneira de reduzir o volume de lixo e usar o material orgânico para enriquecer o solo de hortas urbanas"|"Sugestão"|"4.228719234466553"|""|"1"
+"0005"|"Sugestão"|"zero_shot_direto"|"llama-3.1-8b-instant"|"Sugestão"|"1"|"Sugiro que Caruaru implemente um sistema de compostagem comunitária. A criação de pontos de coleta em feiras e mercados seria uma ótima maneira de reduzir o volume de lixo e usar o material orgânico para enriquecer o solo de hortas urbanas"|"Sugestão"|"0.32339024543762207"|""|"1"
+"0005"|"Sugestão"|"zero_shot_cot"|"gemini-2.5-flash-lite"|"Sugestão"|"1"|"Sugiro que Caruaru implemente um sistema de compostagem comunitária. A criação de pontos de coleta em feiras e mercados seria uma ótima maneira de reduzir o volume de lixo e usar o material orgânico para enriquecer o solo de hortas urbanas"|"O texto apresenta uma proposta de melhoria para o município, indicando uma ação específica a ser tomada (implementar compostagem comunitária) e justificando seus benefícios (reduzir lixo e enriquecer o solo). Não expressa insatisfação com algo existente, nem busca informações ou requer algo para si.
+
+Categoria Final: Sugestão"|"0.8409571647644043"|""|"1"
+"0005"|"Sugestão"|"zero_shot_cot"|"gpt-5-nano"|"Sugestão"|"1"|"Sugiro que Caruaru implemente um sistema de compostagem comunitária. A criação de pontos de coleta em feiras e mercados seria uma ótima maneira de reduzir o volume de lixo e usar o material orgânico para enriquecer o solo de hortas urbanas"|"Raciocínio: O texto inicia com ""Sugiro"" e propõe uma ação prática para a gestão pública (comunitária), caracterizando-se como uma sugestão de melhoria/ação para a cidade. Não é elogio, crítica, pedido de LAI, solicitação ou denúncia.
+
+Categoria Final: Sugestão"|"7.602092027664185"|""|"1"
+"0005"|"Sugestão"|"zero_shot_cot"|"llama-3.1-8b-instant"|"Sugestão"|"1"|"Sugiro que Caruaru implemente um sistema de compostagem comunitária. A criação de pontos de coleta em feiras e mercados seria uma ótima maneira de reduzir o volume de lixo e usar o material orgânico para enriquecer o solo de hortas urbanas"|"O texto apresenta uma sugestão específica para melhorar a cidade de Caruaru, destacando uma solução prática e positiva para reduzir o volume de lixo e aproveitar o material orgânico. A linguagem utilizada é objetiva e não apresenta críticas ou reclamações, tampouco pede algo de forma exigente.
+
+Raciocínio Final, 
+Categoria Final: Sugestão"|"0.4898383617401123"|""|"1"
+"0005"|"Sugestão"|"few_shot_completo"|"gemini-2.5-flash-lite"|"Sugestão"|"1"|"Sugiro que Caruaru implemente um sistema de compostagem comunitária. A criação de pontos de coleta em feiras e mercados seria uma ótima maneira de reduzir o volume de lixo e usar o material orgânico para enriquecer o solo de hortas urbanas"|"Sugestão"|"0.6835410594940186"|""|"1"
+"0005"|"Sugestão"|"few_shot_completo"|"gpt-5-nano"|"Sugestão"|"1"|"Sugiro que Caruaru implemente um sistema de compostagem comunitária. A criação de pontos de coleta em feiras e mercados seria uma ótima maneira de reduzir o volume de lixo e usar o material orgânico para enriquecer o solo de hortas urbanas"|"Sugestão"|"2.8917410373687744"|""|"1"
+"0005"|"Sugestão"|"few_shot_completo"|"llama-3.1-8b-instant"|"Sugestão"|"1"|"Sugiro que Caruaru implemente um sistema de compostagem comunitária. A criação de pontos de coleta em feiras e mercados seria uma ótima maneira de reduzir o volume de lixo e usar o material orgânico para enriquecer o solo de hortas urbanas"|"Sugestão"|"0.432171106338501"|""|"1"
+"0005"|"Sugestão"|"meta_prompt_melhor_prompt"|"gemini-2.5-flash-lite"|"NAO_MAPEADO"|"0"|"Sugiro que Caruaru implemente um sistema de compostagem comunitária. A criação de pontos de coleta em feiras e mercados seria uma ótima maneira de reduzir o volume de lixo e usar o material orgânico para enriquecer o solo de hortas urbanas"|"Você é um especialista em classificação de manifestações de ouvidoria. Sua tarefa é ler atentamente a manifestação fornecida e classificá-la em uma das seguintes categorias:
+
+*   **Elogio:** Expressão de satisfação, reconhecimento ou apreciação positiva.
+*   **Crítica:** Expressão de insatisfação, desaprovação ou avaliação negativa de um serviço, produto ou processo.
+*   **Sugestão:** Proposta de melhoria, nova ideia ou recomendação para aprimoramento.
+*   **Pedido de LAI:** Solicitação formal de acesso à informação pública com base na Lei de Acesso à Informação.
+*   **Solicitação:** Pedido formal de um serviço, informação específica (que não seja LAI), ou ação.
+*   **Denúncia:** Relato de irregularidade, conduta inadequada, fraude, corrupção ou qualquer infração.
+
+Analise a manifestação abaixo e responda **exclusivamente com uma das categorias listadas acima**. Não adicione nenhuma outra informação, explicação ou texto.
+
+Manifestação:
+[INSERIR TEXTO DA MANIFESTAÇÃO AQUI]"|"2.520585775375366"|""|"1"
+"0005"|"Sugestão"|"meta_prompt_melhor_prompt"|"gpt-5-nano"|"Elogio"|"0"|"Sugiro que Caruaru implemente um sistema de compostagem comunitária. A criação de pontos de coleta em feiras e mercados seria uma ótima maneira de reduzir o volume de lixo e usar o material orgânico para enriquecer o solo de hortas urbanas"|"Você é um classificador de manifestações de ouvidoria. Sua tarefa é ler a mensagem de um cidadão dirigida à ouvidoria e atribuir apenas uma das categorias a seguir: Elogio, Crítica, Sugestão, Pedido de LAI, Solicitação, Denúncia.
+
+Definições rápidas para orientar a classificação:
+- Elogio: expressão de satisfação, reconhecimento ou gratidão em relação a um serviço ou atendimento.
+- Crítica: insatisfação, reclamação ou apontamento de falhas no serviço, no atendimento ou em procedimentos.
+- Sugestão: proposição de melhoria, ideia ou recomendação para mudança de prática.
+- Pedido de LAI: requerimento de informações ou dados públicos, submetido conforme a Lei de Acesso à Informação.
+- Solicitação: pedido de serviço, orientação ou atendimento não relacionado a LAI.
+- Denúncia: relato de possível irregularidade, prática inadequada, crime ou dano, com ou sem evidências.
+
+Nota sobre ambiguidades: se a mensagem contiver elementos de mais de uma categoria, atribua a categoria que melhor descreve a intenção principal do texto. Em caso de dúvidas entre duas categorias, escolha aquela que representa o objetivo mais direto da manifestação.
+
+Formato de saída: sempre responder apenas com o rótulo da categoria, exatamente como escrito acima (Elogio, Crítica, Sugestão, Pedido de LAI, Solicitação, Denúncia). Não inclua explicações, textos adicionais ou pontuação extra."|"25.378437042236328"|""|"1"
+"0005"|"Sugestão"|"meta_prompt_melhor_prompt"|"llama-3.1-8b-instant"|"NAO_MAPEADO"|"0"|"Sugiro que Caruaru implemente um sistema de compostagem comunitária. A criação de pontos de coleta em feiras e mercados seria uma ótima maneira de reduzir o volume de lixo e usar o material orgânico para enriquecer o solo de hortas urbanas"|"""Classifique a manifestação de ouvidoria como uma das seguintes categorias:
+
+- Elogio: quando expressa uma opinião positiva ou reconhecimento.
+- Crítica: quando expressa uma opinião negativa ou desaprovação.
+- Sugestão: quando apresenta uma ideia original ou proposta de melhoria.
+- Pedido de LAI (Reclamação Administrativa Interna): quando solicita resolução de um problema ou reclamação específica.
+- Solicitação: quando pede alguma ação ou providência.
+- Denúncia: quando relata um problema ou fato suspeito de irregularidade.
+
+Responda com a categoria mais apropriada, evitando hesitações ou ambiguidades, e garantindo que a opção escolhida seja a mais precisa e relevante para a manifestação fornecida."|"0.7400853633880615"|""|"1"
+"0006"|"Sugestão"|"zero_shot_direto"|"gemini-2.5-flash-lite"|"Sugestão"|"1"|"Para diminuir o lixo orgânico e gerar adubo, sugiro que Caruaru crie um programa de compostagem comunitária. A prefeitura poderia instalar pontos de coleta em feiras e mercados para que a população participe ativamente do projeto"|"Sugestão"|"1.2500288486480713"|""|"1"
+"0006"|"Sugestão"|"zero_shot_direto"|"gpt-5-nano"|"Sugestão"|"1"|"Para diminuir o lixo orgânico e gerar adubo, sugiro que Caruaru crie um programa de compostagem comunitária. A prefeitura poderia instalar pontos de coleta em feiras e mercados para que a população participe ativamente do projeto"|"Sugestão"|"2.8916871547698975"|""|"1"
+"0006"|"Sugestão"|"zero_shot_direto"|"llama-3.1-8b-instant"|"Sugestão"|"1"|"Para diminuir o lixo orgânico e gerar adubo, sugiro que Caruaru crie um programa de compostagem comunitária. A prefeitura poderia instalar pontos de coleta em feiras e mercados para que a população participe ativamente do projeto"|"Sugestão"|"0.28903961181640625"|""|"1"
+"0006"|"Sugestão"|"zero_shot_cot"|"gemini-2.5-flash-lite"|"Sugestão"|"1"|"Para diminuir o lixo orgânico e gerar adubo, sugiro que Caruaru crie um programa de compostagem comunitária. A prefeitura poderia instalar pontos de coleta em feiras e mercados para que a população participe ativamente do projeto"|"O texto apresenta uma proposta construtiva para resolver um problema (redução de lixo orgânico e geração de adubo), detalhando como a prefeitura poderia implementar essa ideia. Não expressa insatisfação nem reclamação, mas sim uma forma de melhorar um serviço ou situação.
+
+Categoria Final: Sugestão"|"1.1903984546661377"|""|"1"
+"0006"|"Sugestão"|"zero_shot_cot"|"gpt-5-nano"|"Sugestão"|"1"|"Para diminuir o lixo orgânico e gerar adubo, sugiro que Caruaru crie um programa de compostagem comunitária. A prefeitura poderia instalar pontos de coleta em feiras e mercados para que a população participe ativamente do projeto"|"Raciocínio: O texto inicia com ""sugiro"" e propõe uma ação pública concreta (programa de compostagem comunitária) com detalhes de implementação, caracterizando uma sugestão.
+
+Categoria Final: Sugestão"|"7.601992607116699"|""|"1"
+"0006"|"Sugestão"|"zero_shot_cot"|"llama-3.1-8b-instant"|"Sugestão"|"1"|"Para diminuir o lixo orgânico e gerar adubo, sugiro que Caruaru crie um programa de compostagem comunitária. A prefeitura poderia instalar pontos de coleta em feiras e mercados para que a população participe ativamente do projeto"|"O texto apresentado não é um elogio, pois não é direcionado à prefeitura de Caruaru para manifestar admiração. Além disso, não é um pedido de LAI, pois não é uma solicitação de auxílio financeiro ou logístico. A menção a ""diminuir o lixo orgânico"" e a criação de um ""programa de compostagem comunitária"" são características de uma sugestão, e a ideia de ""participar ativamente do projeto"" sugere que a população será envolvida na implementação do programa. A menção a ""pontos de coleta em feiras e mercados"" e a instalação deles pela prefeitura também não são características de pedido de LAI, denúncia, solicitação ou crítica.
+
+Raciocinio: É uma sugestão e não um pedido de recurso.
+
+Categoria Final: Sugestão"|"0.7399530410766602"|""|"1"
+"0006"|"Sugestão"|"few_shot_completo"|"gemini-2.5-flash-lite"|"Sugestão"|"1"|"Para diminuir o lixo orgânico e gerar adubo, sugiro que Caruaru crie um programa de compostagem comunitária. A prefeitura poderia instalar pontos de coleta em feiras e mercados para que a população participe ativamente do projeto"|"Sugestão"|"0.8411295413970947"|""|"1"
+"0006"|"Sugestão"|"few_shot_completo"|"gpt-5-nano"|"Sugestão"|"1"|"Para diminuir o lixo orgânico e gerar adubo, sugiro que Caruaru crie um programa de compostagem comunitária. A prefeitura poderia instalar pontos de coleta em feiras e mercados para que a população participe ativamente do projeto"|"Sugestão"|"2.5832481384277344"|""|"1"
+"0006"|"Sugestão"|"few_shot_completo"|"llama-3.1-8b-instant"|"Sugestão"|"1"|"Para diminuir o lixo orgânico e gerar adubo, sugiro que Caruaru crie um programa de compostagem comunitária. A prefeitura poderia instalar pontos de coleta em feiras e mercados para que a população participe ativamente do projeto"|"Sugestão"|"0.43387508392333984"|""|"1"
+"0006"|"Sugestão"|"meta_prompt_melhor_prompt"|"gemini-2.5-flash-lite"|"NAO_MAPEADO"|"0"|"Para diminuir o lixo orgânico e gerar adubo, sugiro que Caruaru crie um programa de compostagem comunitária. A prefeitura poderia instalar pontos de coleta em feiras e mercados para que a população participe ativamente do projeto"|"Você é um classificador de manifestações de ouvidoria. Sua tarefa é analisar o texto de uma manifestação e classificá-la em uma das seguintes categorias: Elogio, Crítica, Sugestão, Pedido de LAI, Solicitação, ou Denúncia.
+
+Responda APENAS com o nome da categoria que melhor descreve a manifestação. Não inclua nenhuma outra informação, justificativa ou texto adicional na sua resposta. Se a manifestação não se encaixar claramente em nenhuma categoria, ou se for ambígua, classifique-a como ""Solicitação"".
+
+Manifestação:
+[INSIRA O TEXTO DA MANIFESTAÇÃO AQUI]"|"0.9340245723724365"|""|"1"

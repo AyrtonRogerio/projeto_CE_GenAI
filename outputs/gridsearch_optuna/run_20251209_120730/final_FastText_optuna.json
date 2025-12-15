@@ -1,0 +1,13 @@
+{
+  "model": "FastText",
+  "algorithm": "Optuna",
+  "best_f1_train": 0.9689411227729584,
+  "f1_holdout": 0.9584070294784581,
+  "accuracy_holdout": 0.9583333333333334,
+  "best_params": {
+    "lr": 0.32749787255632135,
+    "dim": 100,
+    "epoch": 29,
+    "wordNgrams": 1
+  }
+}

@@ -1,0 +1,18 @@
+=== RELATÓRIO DE INSIGHTS AUTOMÁTICOS ===
+
+1. Melhor Modelo ML Clássico: LogisticRegression
+
+2. Melhor Estratégia por LLM:
+   - gemini-2.5-flash-lite: Melhor = meta_prompt_classificacao (F1=0.9104)
+   - gpt-5-nano: Melhor = meta_prompt_classificacao (F1=0.8699)
+   - llama-3.1-8b-instant: Melhor = Zero-Shot (F1=0.7666)
+
+3. Comparativo de Latência (Velocidade):
+modelo_id
+FastText                 0.000014
+LogisticRegression       0.000034
+NaiveBayes               0.000037
+SVM                      0.000041
+llama-3.1-8b-instant     0.487108
+gemini-2.5-flash-lite    1.090494
+gpt-5-nano               5.690893

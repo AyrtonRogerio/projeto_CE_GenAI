@@ -13,7 +13,7 @@ from src.genai.benchmark_runner import run_benchmark
 INPUT_FILE_PATH = os.path.join(project_root, 'data', 'raw', 'ouvidoria_sintetico.csv')
 
 def main():
-    print("--- Iniciando Pipeline de Benchmark GenAI ---")
+    print("Iniciando Pipeline de Benchmark GenAI")
     print(f"Diretório Raiz do Projeto: {project_root}")
     print(f"Arquivo de entrada: {INPUT_FILE_PATH}")
 

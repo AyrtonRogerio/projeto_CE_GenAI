@@ -15,7 +15,7 @@ def load_data(filepath: str) -> pd.DataFrame:
         if len(df.columns) < 2:
             df = pd.read_csv(filepath, sep='|', on_bad_lines='skip')
 
-        print(f"✅ Dataset carregado: {len(df)} linhas.")
+        print(f"Dataset carregado: {len(df)} linhas.")
 
 
         mapa_colunas = {

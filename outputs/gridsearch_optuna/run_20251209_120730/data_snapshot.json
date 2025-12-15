@@ -1,0 +1,12 @@
+{
+  "n_samples": 720,
+  "n_classes": 6,
+  "classes": [
+    "Crítica",
+    "Denúncia",
+    "Elogio",
+    "Pedido de Acesso à Informação (LAI)",
+    "Solicitação",
+    "Sugestão"
+  ]
+}

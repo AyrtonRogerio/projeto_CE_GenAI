@@ -26,10 +26,10 @@ plt.rcParams['axes.spines.top'] = False
 plt.rcParams['axes.spines.right'] = False
 
 COLOR_MAP = {
-    'Evolutionary': '#2ca02c',      # Verde
-    'GridSearchCV': '#1f77b4',      # Azul
-    'Optuna': '#ff7f0e',            # Laranja
-    'Grid/Optuna': '#1f77b4'        # Azul
+    'Evolutionary': '#2ca02c',
+    'GridSearchCV': '#1f77b4',
+    'Optuna': '#ff7f0e',
+    'Grid/Optuna': '#1f77b4'
 }
 
 

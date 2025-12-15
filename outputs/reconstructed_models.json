@@ -1,0 +1,328 @@
+{
+    "exp_20251130_012636__SVM__evolutionary": {
+        "params": {
+            "C": 100.0,
+            "kernel": "linear",
+            "ngram_range": [
+                1,
+                2
+            ]
+        },
+        "score": 1.0,
+        "origin": "Evolutionary",
+        "model_type": "SVM"
+    },
+    "exp_20251130_012636__LogisticRegression__evolutionary": {
+        "params": {
+            "C": 100.0,
+            "solver": "liblinear",
+            "ngram_range": [
+                1,
+                1
+            ]
+        },
+        "score": 1.0,
+        "origin": "Evolutionary",
+        "model_type": "LogisticRegression"
+    },
+    "exp_20251130_012636__NaiveBayes__evolutionary": {
+        "params": {
+            "alpha": 0.01,
+            "ngram_range": [
+                1,
+                2
+            ]
+        },
+        "score": 0.9930525401650022,
+        "origin": "Evolutionary",
+        "model_type": "NaiveBayes"
+    },
+    "exp_20251130_012636__FastText__evolutionary": {
+        "params": {
+            "lr": 1.0,
+            "epoch": 50,
+            "wordNgrams": 2,
+            "dim": 100
+        },
+        "score": 0.9722222222222222,
+        "origin": "Evolutionary",
+        "model_type": "FastText"
+    },
+    "exp_20251209_090410__FastText__evolutionary": {
+        "params": {
+            "lr": 1.0,
+            "epoch": 50,
+            "wordNgrams": 2,
+            "dim": 100
+        },
+        "score": 0.972157225517404,
+        "origin": "Evolutionary",
+        "model_type": "FastText"
+    },
+    "exp_20251209_000201__SVM__evolutionary": {
+        "params": {
+            "C": 100.0,
+            "kernel": "sigmoid",
+            "ngram_range": [
+                1,
+                1
+            ]
+        },
+        "score": 1.0,
+        "origin": "Evolutionary",
+        "model_type": "SVM"
+    },
+    "exp_20251209_000201__LogisticRegression__evolutionary": {
+        "params": {
+            "C": 100.0,
+            "solver": "liblinear",
+            "ngram_range": [
+                1,
+                1
+            ]
+        },
+        "score": 1.0,
+        "origin": "Evolutionary",
+        "model_type": "LogisticRegression"
+    },
+    "exp_20251209_000201__NaiveBayes__evolutionary": {
+        "params": {
+            "alpha": 0.01,
+            "ngram_range": [
+                1,
+                2
+            ]
+        },
+        "score": 0.9930525401650022,
+        "origin": "Evolutionary",
+        "model_type": "NaiveBayes"
+    },
+    "exp_20251209_012000__SVM__evolutionary": {
+        "params": {
+            "C": 50.0,
+            "kernel": "sigmoid",
+            "ngram_range": [
+                1,
+                1
+            ]
+        },
+        "score": 1.0,
+        "origin": "Evolutionary",
+        "model_type": "SVM"
+    },
+    "exp_20251209_012000__LogisticRegression__evolutionary": {
+        "params": {
+            "C": 100.0,
+            "solver": "liblinear",
+            "ngram_range": [
+                1,
+                2
+            ]
+        },
+        "score": 1.0,
+        "origin": "Evolutionary",
+        "model_type": "LogisticRegression"
+    },
+    "exp_20251209_012000__NaiveBayes__evolutionary": {
+        "params": {
+            "alpha": 0.01,
+            "ngram_range": [
+                1,
+                2
+            ]
+        },
+        "score": 0.9930525401650022,
+        "origin": "Evolutionary",
+        "model_type": "NaiveBayes"
+    },
+    "exp_20251130_013245__SVM__evolutionary": {
+        "params": {
+            "C": 100.0,
+            "kernel": "sigmoid",
+            "ngram_range": [
+                1,
+                1
+            ]
+        },
+        "score": 1.0,
+        "origin": "Evolutionary",
+        "model_type": "SVM"
+    },
+    "exp_20251130_013245__LogisticRegression__evolutionary": {
+        "params": {
+            "C": 100.0,
+            "solver": "liblinear",
+            "ngram_range": [
+                1,
+                1
+            ]
+        },
+        "score": 1.0,
+        "origin": "Evolutionary",
+        "model_type": "LogisticRegression"
+    },
+    "exp_20251130_013245__NaiveBayes__evolutionary": {
+        "params": {
+            "alpha": 0.01,
+            "ngram_range": [
+                1,
+                2
+            ]
+        },
+        "score": 0.9930525401650022,
+        "origin": "Evolutionary",
+        "model_type": "NaiveBayes"
+    },
+    "exp_20251130_013245__FastText__evolutionary": {
+        "params": {
+            "lr": 1.0,
+            "epoch": 50,
+            "wordNgrams": 2,
+            "dim": 100
+        },
+        "score": 0.9791666666666666,
+        "origin": "Evolutionary",
+        "model_type": "FastText"
+    },
+    "run_20251209_120730__SVM__grid_optuna": {
+        "params": {
+            "clf__C": 10,
+            "tfidf__ngram_range": [
+                1,
+                1
+            ]
+        },
+        "score": 0.9930525401650021,
+        "origin": "Baseline",
+        "model_type": "SVM"
+    },
+    "run_20251209_120730__FastText__grid_optuna": {
+        "params": {
+            "lr": 0.32749787255632135,
+            "dim": 100,
+            "epoch": 29,
+            "wordNgrams": 1
+        },
+        "score": 0.9584070294784581,
+        "origin": "Baseline",
+        "model_type": "FastText"
+    },
+    "run_20251209_120730__LogisticRegression__grid_optuna": {
+        "params": {
+            "clf__C": 10,
+            "tfidf__ngram_range": [
+                1,
+                1
+            ]
+        },
+        "score": 0.9930525401650021,
+        "origin": "Baseline",
+        "model_type": "LogisticRegression"
+    },
+    "run_20251209_120730__NaiveBayes__grid_optuna": {
+        "params": {
+            "clf__alpha": 0.1,
+            "tfidf__ngram_range": [
+                1,
+                2
+            ]
+        },
+        "score": 0.9930525401650021,
+        "origin": "Baseline",
+        "model_type": "NaiveBayes"
+    },
+    "run_20251130_041240__SVM__grid_optuna": {
+        "params": {
+            "clf__C": 10,
+            "tfidf__ngram_range": [
+                1,
+                1
+            ]
+        },
+        "score": 0.9930525401650021,
+        "origin": "Baseline",
+        "model_type": "SVM"
+    },
+    "run_20251130_041240__FastText__grid_optuna": {
+        "params": {
+            "lr": 0.28971805320947014,
+            "dim": 100,
+            "epoch": 27,
+            "wordNgrams": 2
+        },
+        "score": 0.047619047619047616,
+        "origin": "Baseline",
+        "model_type": "FastText"
+    },
+    "run_20251130_041240__LogisticRegression__grid_optuna": {
+        "params": {
+            "clf__C": 10,
+            "tfidf__ngram_range": [
+                1,
+                2
+            ]
+        },
+        "score": 0.9861080957205578,
+        "origin": "Baseline",
+        "model_type": "LogisticRegression"
+    },
+    "run_20251130_041240__NaiveBayes__grid_optuna": {
+        "params": {
+            "clf__alpha": 0.1,
+            "tfidf__ngram_range": [
+                1,
+                1
+            ]
+        },
+        "score": 0.9647812032614466,
+        "origin": "Baseline",
+        "model_type": "NaiveBayes"
+    },
+    "run_20251130_012951__SVM__grid_optuna": {
+        "params": {
+            "clf__C": 10,
+            "tfidf__ngram_range": [
+                1,
+                1
+            ]
+        },
+        "score": 1.0,
+        "origin": "Baseline",
+        "model_type": "SVM"
+    },
+    "run_20251130_012951__FastText__grid_optuna": {
+        "params": {
+            "lr": 0.3741906621017037,
+            "dim": 50,
+            "epoch": 14,
+            "wordNgrams": 1
+        },
+        "score": 0.047619047619047616,
+        "origin": "Baseline",
+        "model_type": "FastText"
+    },
+    "run_20251130_012951__LogisticRegression__grid_optuna": {
+        "params": {
+            "clf__C": 10,
+            "tfidf__ngram_range": [
+                1,
+                1
+            ]
+        },
+        "score": 1.0,
+        "origin": "Baseline",
+        "model_type": "LogisticRegression"
+    },
+    "run_20251130_012951__NaiveBayes__grid_optuna": {
+        "params": {
+            "clf__alpha": 0.1,
+            "tfidf__ngram_range": [
+                1,
+                2
+            ]
+        },
+        "score": 0.9861050803300043,
+        "origin": "Baseline",
+        "model_type": "NaiveBayes"
+    }
+}

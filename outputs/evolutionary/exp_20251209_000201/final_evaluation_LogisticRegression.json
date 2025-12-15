@@ -1,0 +1,13 @@
+{
+  "Modelo": "LogisticRegression",
+  "Parametros": {
+    "C": 100.0,
+    "solver": "liblinear",
+    "ngram_range": [
+      1,
+      1
+    ]
+  },
+  "Holdout_F1": 1.0,
+  "runtime_seconds": 3400.855544567108
+}

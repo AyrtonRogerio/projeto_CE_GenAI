@@ -1,0 +1,11 @@
+{
+  "Modelo": "FastText",
+  "Parametros": {
+    "lr": 1.0,
+    "epoch": 50,
+    "wordNgrams": 2,
+    "dim": 100
+  },
+  "Holdout_F1": 0.972157225517404,
+  "runtime_seconds": 10884.543505430222
+}

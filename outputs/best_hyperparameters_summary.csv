@@ -1,0 +1,7 @@
+model;f1;accuracy;precision;recall;params;origin;source_file
+SVM;1.0;1.0;1.0;1.0;{'C': 100.0, 'kernel': 'linear', 'ngram_range': [1, 2]};evolutionary;/home/ayrton/IdeaProjects/projeto_CE_GenAI/outputs/evolutionary/exp_20251130_012636/final_results_all_models.json
+LogisticRegression;1.0;1.0;1.0;1.0;{'C': 100.0, 'solver': 'liblinear', 'ngram_range': [1, 1]};evolutionary;/home/ayrton/IdeaProjects/projeto_CE_GenAI/outputs/evolutionary/exp_20251130_012636/final_evaluation_LogisticRegression.json
+FastText;0.9791666666666666;;0.9791666666666666;0.9791666666666666;{'lr': 1.0, 'epoch': 50, 'wordNgrams': 2, 'dim': 100};evolutionary;/home/ayrton/IdeaProjects/projeto_CE_GenAI/outputs/evolutionary/exp_20251130_013245/final_evaluation_FastText.json
+NaiveBayes;0.9930525401650022;0.9930555555555556;0.9933333333333333;0.9930555555555555;{'alpha': 0.01, 'ngram_range': [1, 2]};evolutionary;/home/ayrton/IdeaProjects/projeto_CE_GenAI/outputs/evolutionary/exp_20251130_012636/final_evaluation_NaiveBayes.json
+LinearSVC;1.0;1.0;-1.0;-1.0;{'clf__C': 10, 'tfidf__ngram_range': [1, 1]};gridsearch_optuna;/home/ayrton/IdeaProjects/projeto_CE_GenAI/outputs/gridsearch_optuna/run_20251130_012951/final_LinearSVC_gridsearch.json
+MultinomialNB;0.9861050803300043;0.9861111111111112;-1.0;-1.0;{'clf__alpha': 0.1, 'tfidf__ngram_range': [1, 2]};gridsearch_optuna;/home/ayrton/IdeaProjects/projeto_CE_GenAI/outputs/gridsearch_optuna/run_20251130_012951/final_MultinomialNB_gridsearch.json

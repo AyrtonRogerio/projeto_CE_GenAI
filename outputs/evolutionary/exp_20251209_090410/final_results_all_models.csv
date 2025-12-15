@@ -1,0 +1,2 @@
+Modelo;Parametros;Holdout_F1;runtime_seconds
+FastText;{'lr': 1.0, 'epoch': 50, 'wordNgrams': 2, 'dim': 100};0.972157225517404;10884.543505430222

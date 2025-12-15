@@ -1,0 +1,13 @@
+{
+  "Modelo": "SVM",
+  "Parametros": {
+    "C": 100.0,
+    "kernel": "sigmoid",
+    "ngram_range": [
+      1,
+      1
+    ]
+  },
+  "Holdout_F1": 1.0,
+  "runtime_seconds": 1715.0911343097687
+}
